@@ -12,8 +12,8 @@ if (!$raw.count) {
   return
 }
 
-$table = ./raw-to-vpm.ps1 $area $raw 
-
 $filename = "data/$area.txt" -replace " ","_"
 write-host "dokuwiki filename [$filename]"
-$table | out-file -enc utf8 "$filename"
+
+$table = ./raw-to-vpm.ps1 $area $raw -filename $filename
+

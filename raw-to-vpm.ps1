@@ -1,4 +1,4 @@
-param($area, $raw)
+param($area, $raw, $filename=$null)
 
 function getnumber([string]$data, [string]$unit) {
   #test: (getnumber " 5,47 m/s" "m/s") == 5.47
@@ -89,8 +89,10 @@ $table = $lifts | % {
   "==== Lift data for places matching `"$area`" ===="
   "Collected on $date"
   "See [[:vpm]] for blurb on how to read the table."
-  "^ Lift ^ Type ^  VPM\\ (m/min)^  Vertical\\ Rise^  Time\\ (min)^  Line Speed\\ (m/sec)^  Line length\\ (m)^ Link ^"
+  "| Lift | Type |  VPM (m/min) |  Vertical Rise |  Time (min) |  Line Speed (m/sec) |  Line length (m) | Link |"
+  "| -- | -- | -- | -- | -- | -- | -- | -- |"
 } {
+  $link = "[link]($($_.url))"
   if ($_.valid) {
     $vert = "{0,5:N0}" -f [math]::round($_.vert)
     $type = $_.type
@@ -102,10 +104,14 @@ $table = $lifts | % {
       $speed = "{0,6:N1}" -f [double]$_.speed
     }
     $length = "{0,6:N0}" -f [math]::round($_.length)
-    "| $($_.Name) | $type |  $vpm |  $vert |  $time |  $speed |  $length | [[$($_.url)|link]] |" 
+    "| $($_.Name) | $type |  $vpm |  $vert |  $time |  $speed |  $length | $link |" 
   } else {
-    "| $($_.Name)\\ [$note] | $($_.type) |  $($_.vert_raw) | $($_.time_raw) | N/A | $($_.speed_raw) | $($_.length_raw) | [[$($_.url)|link]] |" 
+    "| $($_.Name)\\ [$note] | $($_.type) |  $($_.vert_raw) | $($_.time_raw) | N/A | $($_.speed_raw) | $($_.length_raw) | $link |" 
   }
 }
 
-$table
+if ($filename) {
+  $table | out-file -enc utf8 "$filename"
+} else {
+  $table
+}
