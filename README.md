@@ -13,30 +13,16 @@ So I want to maximize VPM (Vert per Minute).
 
 ## Running the code.
 
-Up to date file is now make-vpm.ps1
+```
+PS> ./make-vpm 'whistler' # Generates data/whistler.md
+PS> git commit -m 'DATA: whistler'
+PS> git push # update gh pages
+```
 
-Then cp2awfie-liftdata
+## Types
 
-
-## types:
-
-# ATW Aerial Tramway 
-# MGD Monocable gondola detachable 
-# BGD Bicable gondola detachable 
-# TGD Tricable gondola detachable 
-# MGFP Monocable gondola fixed grip pulsed 
-# MGFJ Monocable gondola fixed grip jigback 
-# BGFP gondola fixed grip pulsed
-# CLF  Chairlift fixed grip 
-# CLD  Chairlift detachable 
-# CGD  Chairlift gondola detachable 
-# FT   Funitel  
-# FUF  Funifor  
-# RPC  Rope conveyor  
-# SL   Surface lift
-
-
-^ EN ^ FR ^ DE ^ English ^ Fran�ais ^ Deutsch ^
+| English | Fran�ais | Deutsch | English | Fran�ais | Deutsch |
+| -- | -- | -- | -- | -- | -- |
 | ATW | TPH | PB | Aerial Tramway | T�l�ph�rique | Pendelbahn |
 | MGD | TCD | EUB | Monocable gondola detachable  | T�l�cabine (d�brayable)  | Gondelbahn, Einseilumlaufbahn |
 | BGD | 2S | ZUB | Bicable gondola detachable  | T�l�ph�rique d�brayable  | Gondelbahn, Zweiseilumlaufbahn |
