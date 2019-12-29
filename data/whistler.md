@@ -1,5 +1,6 @@
 ==== Lift data for places matching "whistler" ====
-Collected on December 2019
+v3 Collected on December 2019
+
 See [[:vpm]] for blurb on how to read the table.
 | Lift | Type |  VPM (m/min) |  Vertical Rise |  Time (min) |  Line Speed (m/sec) |  Line length (m) | Link |
 | -- | -- | -- | -- | -- | -- | -- | -- |
