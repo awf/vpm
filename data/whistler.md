@@ -35,4 +35,4 @@ See [[:vpm]] for blurb on how to read the table.
 | Magic\\ [N/A] | 3-CLF |  94 m | ?? min | N/A | ?? m/s | 620 m | [link](https://lift-world.info/en/lifts/3515/datas.htm) |
 | Symphony Express\\ [N/A] | 4-CLD |  509 m | ?? min | N/A | ?? m/s | 2112 m | [link](https://lift-world.info/en/lifts/10757/datas.htm) |
 | Crystal Ridge Express\\ [N/A] | 4-CLD |  ?? m | ?? min | N/A | ?? m/s | ?? m | [link](https://lift-world.info/en/lifts/17106/datas.htm) |
-| FranzÂ´s\\ [N/A] | 3-CLF |  272 m | ?? min | N/A | ?? m/s | ?? m | [link](https://lift-world.info/en/lifts/3507/datas.htm) |
+| Franz´s\\ [N/A] | 3-CLF |  272 m | ?? min | N/A | ?? m/s | ?? m | [link](https://lift-world.info/en/lifts/3507/datas.htm) |
