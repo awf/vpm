@@ -12,8 +12,13 @@ if (!$raw.count) {
   return
 }
 
-$filename = "data/$area.md" -replace "[* ]","_"
-write-host "dokuwiki filename [$filename]"
+$filenamebase = "data/$area" -replace "[* ]","_"
+
+$csvfile = "$filenamebase.csv"
+write-host "Writing CSV to $csvfile"
+$raw | export-csv $csvfile
+
+$filename = "$filenamebase.md"
+write-host "Markdown filename [$filename]"
 
 $table = ./raw-to-vpm.ps1 $area $raw -filename $filename
-
