@@ -11,6 +11,8 @@ You know some of the rules: use the steepest lifts, try the gondolas,
 but is it better to take that 7-minute fast chair or the steep 10-minute T bar?
 So I want to maximize VPM (Vert per Minute).
 
+Results on (https://awf.github.io/vpm)
+
 ## Running the code.
 
 ```
