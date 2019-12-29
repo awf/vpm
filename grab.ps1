@@ -57,8 +57,8 @@ $base = 'https://lift-world.info'
 
 # Get the summary page
 
-# this is loose search:
-$url = "$base/en/lifts/searchresult.htm?sprache=en&suchoption=erweitert&eOrt=$area"
+# Search by resort ("eSkigebiet")
+$url = "$base/en/lifts/searchresult.htm?sprache=en&suchoption=erweitert&eSkigebiet=$area"
 $url+= "&liftstatus1=1&liftstatus2=1&liftstatus3=1" # Remove replaced/decomissioned lifts
 write-host "$url"
 $h = ./http-get-html $url
@@ -67,10 +67,6 @@ $failed = ($h.DocumentNode.OuterHtml -split "`n" | Select-String "Your search di
 if ($failed) {
   throw "http://www.seilbahntechnik.net says $failed"
 }
-
-# this is place only:
-#$area = "*$area*"
-#$h = http-get-html "$base/en/lifts/searchresult.php?eOrt=$area&eLiftname=&eLand=&eArt=&eHersteller=&eBaujahr=&toleranz=AND&sort_by1=Ort&sort_by2=Liftname&sort_dir=ASC&sprache=en&suchoption=erweitert"
 
 $n = $h.DocumentNode.CreateNavigator()
 
@@ -97,7 +93,7 @@ $lifts | ForEach-Object {
   $out = 1 | Select-Object $fieldnames
 
   $out.url = "$base$url"
-  $h1 = (http-get-html $out.url).DocumentNode
+  $h1 = (./http-get-html $out.url).DocumentNode
 
   # Extract info from "General information" pane
   $gitbl = '//th[contains(., "General information")]/ancestor::table[1]'
