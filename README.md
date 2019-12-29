@@ -13,6 +13,14 @@ So I want to maximize VPM (Vert per Minute).
 
 Results on (https://awf.github.io/vpm)
 
+Runs are manual, to avoid spamming seilbahntechnik.net, so here are the manually-curated links to recent runs:
+
+| Resort | Link |
+| -- | -- |
+| Whistler | [whistler](/data/whistler) |
+| Selva Gardena | [Selva](/data/Selva) |
+
+
 ## Running the code.
 
 ```

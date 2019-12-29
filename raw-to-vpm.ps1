@@ -86,9 +86,11 @@ $lifts = $lifts | sort -desc vpm
 $date = get-date -format y
 # create dokuwiki table
 $table = $lifts | % {
-  "==== Lift data for places matching `"$area`" ===="
+  "## Lift data for places matching `"$area`""
   "Collected on $date"
-  "See [[:vpm]] for blurb on how to read the table."
+  ""
+  "See [vpm](/) for blurb on how to read the table."
+  ""
   "| Lift | Type |  VPM (m/min) |  Vertical Rise |  Time (min) |  Line Speed (m/sec) |  Line length (m) | Link |"
   "| -- | -- | -- | -- | -- | -- | -- | -- |"
 } {
