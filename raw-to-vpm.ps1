@@ -12,7 +12,7 @@ function getnumber([string]$data, [string]$unit) {
 }
 
 $lifts = $raw | ForEach-Object { 
-  $out = 1 | select valid,name,place,type,url,vert,time,vpm,speed,length,speed_raw,vert_raw,time_raw,length_raw
+  $out = 1 | Select-Object valid,name,place,type,url,vert,time,vpm,speed,length,speed_raw,vert_raw,time_raw,length_raw
   $out.name = $_.name
   $out.place = $_.place
   $out.type = $_.type
@@ -81,11 +81,11 @@ $lifts = $raw | ForEach-Object {
   $out
 }
 
-$lifts = $lifts | sort -desc vpm
+$lifts = $lifts | Sort-Object -desc vpm
 
 $date = get-date -format y
 # create dokuwiki table
-$table = $lifts | % {
+$table = $lifts | ForEach-Object {
   "## Lift data for places matching `"$area`""
   "Collected on $date"
   ""
