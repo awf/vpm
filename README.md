@@ -14,12 +14,12 @@ So I want to maximize VPM (Vert per Minute).
 Runs are manual, to avoid spamming seilbahntechnik.net, so here are the manually-curated links to recent runs:
 
 * North America
-  - [Whistler](/data/Whistler_Blackcomb)
-  - [Crystal Mountain](/data/Crystal_Mountain)
+  - [Whistler](data/Whistler_Blackcomb)
+  - [Crystal Mountain](data/Crystal_Mountain)
 * Italy
-  - [Val Gardena](/data/Val_Gardena)
+  - [Val Gardena](data/Val_Gardena)
 * Scotland
-  - [Cairngorm](/data/Cairngorm)
+  - [Cairngorm](data/Cairngorm)
 
 Note that we are definitely in pinch of salt territory here. The line length and vertical gain figures are pretty solid, but the ride time is generally not very accurate. Lift operators run the lift slower or faster depending on conditions, possibly varying the ride time by a factor of two or more from these estimates. The entries marked [*] have had ride time computed from the line speed, which is again pretty nominal, and for some lifts you can see entries for both the estimated and supplied ride times, which typically differ by about 15%.
 
