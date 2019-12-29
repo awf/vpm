@@ -1,5 +1,3 @@
-# VPM: Vert Per Minute
-
 What do you want from a ski lift?  I know, I know: no queues, accesses great terrain, a big "Experts only" 
 sign to scare away the riffraff.   But you can determine all of that stuff fairly easily by studying the 
 map, and I'm assuming that you already ski at off-peak times, in whiteouts, using the singles line, and
