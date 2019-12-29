@@ -11,8 +11,6 @@ You know some of the rules: use the steepest lifts, try the gondolas,
 but is it better to take that 7-minute fast chair or the steep 10-minute T bar?
 So I want to maximize VPM (Vert per Minute).
 
-Results on (https://awf.github.io/vpm)
-
 Runs are manual, to avoid spamming seilbahntechnik.net, so here are the manually-curated links to recent runs:
 
 * North America
@@ -23,9 +21,14 @@ Runs are manual, to avoid spamming seilbahntechnik.net, so here are the manually
 * Scotland
   - [Cairngorm](/data/Cairngorm)
 
+Note that we are definitely in pinch of salt territory here. The line length and vertical gain figures are pretty solid, but the ride time is generally not very accurate. Lift operators run the lift slower or faster depending on conditions, possibly varying the ride time by a factor of two or more from these estimates. The entries marked [*] have had ride time computed from the line speed, which is again pretty nominal, and for some lifts you can see entries for both the estimated and supplied ride times, which typically differ by about 15%.
+
+Lift type also plays a rôle. Most of the high-VPM lifts are cable cars or trains, which don't run continuously, so when you factor in a wait time that's typically the same as the ride time, they can be less attractive (although still pretty good, especially if you know one is coming soon). Similarly, the next class is high-speed gondolas, where wait time (ignoring queueing) is much smaller, but you still need to take your skis off and trudge through some infrastructure. Perhaps add a minute to the ride time for these, discounting vpm by 10-30%. For me, the kings of the mountain are the high-speed detachable chairs (CLDs below). There's no faff time, and you're skiing the moment you get to the top.
+
 ## Running the code.
 
 ```
+PS> ./setup # installs HtmlAglityPack
 PS> ./make-vpm 'whistler' # Generates data/whistler.md
 PS> git commit -m 'DATA: whistler'
 PS> git push # update gh pages
