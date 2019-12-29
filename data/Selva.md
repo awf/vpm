@@ -1,4 +1,4 @@
-==== Lift data for places matching "*gardena*" ====
+==== Lift data for places matching "Selva" ====
 Collected on December 2019
 See [[:vpm]] for blurb on how to read the table.
 | Lift | Type |  VPM (m/min) |  Vertical Rise |  Time (min) |  Line Speed (m/sec) |  Line length (m) | Link |
@@ -28,15 +28,15 @@ See [[:vpm]] for blurb on how to read the table.
 | Tramans | 2-CLF |    35.9 |    210 |    5.86 |     2.8 |     985 | [link](https://lift-world.info/en/lifts/2099/datas.htm) |
 | Fungeia | 3-CLF |    30.1 |     32 |    1.08 |     2.1 |     136 | [link](https://lift-world.info/en/lifts/3793/datas.htm) |
 | Tieja | 1-SL |    19.1 |     26 |    1.36 |     2.5 |     204 | [link](https://lift-world.info/en/lifts/14756/datas.htm) |
-| Campo Freina\\ [N/A] | 1-SL |  ?? m | ?? min | N/A | ?? m/s | ?? m | [link](https://lift-world.info/en/lifts/13328/datas.htm) |
-| Terza Punta\\ [N/A] | 1-SL |  ?? m | ?? min | N/A | ?? m/s | ?? m | [link](https://lift-world.info/en/lifts/17902/datas.htm) |
-| Senoner / Plan de Gralba\\ [N/A] | 1-SL |  ?? m | ?? min | N/A | ?? m/s | ?? m | [link](https://lift-world.info/en/lifts/3797/datas.htm) |
-| Panorama\\ [N/A] | 1-SL |  ?? m | ?? min | N/A | ?? m/s | ?? m | [link](https://lift-world.info/en/lifts/3798/datas.htm) |
-| Risaccia 2\\ [N/A] | 1-SL |  ?? m | ?? min | N/A | ?? m/s | ?? m | [link](https://lift-world.info/en/lifts/3796/datas.htm) |
-| Risaccia 1\\ [N/A] | 1-SL |  ?? m | ?? min | N/A | ?? m/s | ?? m | [link](https://lift-world.info/en/lifts/3795/datas.htm) |
-| Pudra\\ [N/A] | 1-SL |  ?? m | ?? min | N/A | ?? m/s | ?? m | [link](https://lift-world.info/en/lifts/17900/datas.htm) |
-| Gran Paradiso\\ [N/A] | 8-CLD/B |  ?? m | 3,5 min | N/A | 5 m/s | 1006 m | [link](https://lift-world.info/en/lifts/18225/datas.htm) |
-| Larciunei\\ [N/A] | 1-SL |  ?? m | ?? min | N/A | ?? m/s | ?? m | [link](https://lift-world.info/en/lifts/3800/datas.htm) |
-| Nives\\ [N/A] | 1-SL |  ?? m | ?? min | N/A | ?? m/s | ?? m | [link](https://lift-world.info/en/lifts/3799/datas.htm) |
-| Cadepunt\\ [N/A] | 1-SL |  ?? m | ?? min | N/A | ?? m/s | ?? m | [link](https://lift-world.info/en/lifts/17898/datas.htm) |
-| Biancaneve\\ [N/A] | 1-SL |  ?? m | ?? min | N/A | ?? m/s | ?? m | [link](https://lift-world.info/en/lifts/17897/datas.htm) |
+| Campo Freina\\ [] | 1-SL |  ?? m | ?? min | N/A | ?? m/s | ?? m | [link](https://lift-world.info/en/lifts/13328/datas.htm) |
+| Terza Punta\\ [] | 1-SL |  ?? m | ?? min | N/A | ?? m/s | ?? m | [link](https://lift-world.info/en/lifts/17902/datas.htm) |
+| Senoner / Plan de Gralba\\ [] | 1-SL |  ?? m | ?? min | N/A | ?? m/s | ?? m | [link](https://lift-world.info/en/lifts/3797/datas.htm) |
+| Panorama\\ [] | 1-SL |  ?? m | ?? min | N/A | ?? m/s | ?? m | [link](https://lift-world.info/en/lifts/3798/datas.htm) |
+| Risaccia 2\\ [] | 1-SL |  ?? m | ?? min | N/A | ?? m/s | ?? m | [link](https://lift-world.info/en/lifts/3796/datas.htm) |
+| Risaccia 1\\ [] | 1-SL |  ?? m | ?? min | N/A | ?? m/s | ?? m | [link](https://lift-world.info/en/lifts/3795/datas.htm) |
+| Pudra\\ [] | 1-SL |  ?? m | ?? min | N/A | ?? m/s | ?? m | [link](https://lift-world.info/en/lifts/17900/datas.htm) |
+| Gran Paradiso\\ [] | 8-CLD/B |  ?? m | 3,5 min | N/A | 5 m/s | 1006 m | [link](https://lift-world.info/en/lifts/18225/datas.htm) |
+| Larciunei\\ [] | 1-SL |  ?? m | ?? min | N/A | ?? m/s | ?? m | [link](https://lift-world.info/en/lifts/3800/datas.htm) |
+| Nives\\ [] | 1-SL |  ?? m | ?? min | N/A | ?? m/s | ?? m | [link](https://lift-world.info/en/lifts/3799/datas.htm) |
+| Cadepunt\\ [] | 1-SL |  ?? m | ?? min | N/A | ?? m/s | ?? m | [link](https://lift-world.info/en/lifts/17898/datas.htm) |
+| Biancaneve\\ [] | 1-SL |  ?? m | ?? min | N/A | ?? m/s | ?? m | [link](https://lift-world.info/en/lifts/17897/datas.htm) |

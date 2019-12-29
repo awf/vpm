@@ -1,7 +1,9 @@
-==== Lift data for places matching "whistler" ====
-v3 Collected on December 2019
+## Lift data for places matching "whistler"
 
-See [[:vpm]] for blurb on how to read the table.
+Collected on December 2019
+
+See [vpm](/) for blurb on how to read the table.
+
 | Lift | Type |  VPM (m/min) |  Vertical Rise |  Time (min) |  Line Speed (m/sec) |  Line length (m) | Link |
 | -- | -- | -- | -- | -- | -- | -- | -- |
 | Peak Express | 4-CLD |   133.7 |    401 |    3.00 |     5.1 |   1,015 | [link](https://lift-world.info/en/lifts/3510/datas.htm) |
@@ -36,4 +38,4 @@ See [[:vpm]] for blurb on how to read the table.
 | Magic\\ [N/A] | 3-CLF |  94 m | ?? min | N/A | ?? m/s | 620 m | [link](https://lift-world.info/en/lifts/3515/datas.htm) |
 | Symphony Express\\ [N/A] | 4-CLD |  509 m | ?? min | N/A | ?? m/s | 2112 m | [link](https://lift-world.info/en/lifts/10757/datas.htm) |
 | Crystal Ridge Express\\ [N/A] | 4-CLD |  ?? m | ?? min | N/A | ?? m/s | ?? m | [link](https://lift-world.info/en/lifts/17106/datas.htm) |
-| Franz´s\\ [N/A] | 3-CLF |  272 m | ?? min | N/A | ?? m/s | ?? m | [link](https://lift-world.info/en/lifts/3507/datas.htm) |
+| Franz's\\ [N/A] | 3-CLF |  272 m | ?? min | N/A | ?? m/s | ?? m | [link](https://lift-world.info/en/lifts/3507/datas.htm) |
