@@ -57,15 +57,20 @@ $base = 'https://lift-world.info'
 
 # Get the summary page
 
-# Search by resort ("eSkigebiet")
-$url = "$base/en/lifts/searchresult.htm?sprache=en&suchoption=erweitert&eSkigebiet=$area"
-$url+= "&liftstatus1=1&liftstatus2=1&liftstatus3=1" # Remove replaced/decomissioned lifts
-write-host "$url"
-$h = ./http-get-html $url
+# Search by resort ("eSkigebiet") or place ("eOrt")
+$h = ''
+foreach ($searchfield in ("eSkigebiet", "eOrt")) {
+  $url = "$base/en/lifts/searchresult.htm?sprache=en&suchoption=erweitert&$searchfield=$area"
+  $url+= "&liftstatus1=1&liftstatus2=1&liftstatus3=1" # Remove replaced/decomissioned lifts
+  write-host "$url"
+  $h = ./http-get-html $url
 
-$failed = ($h.DocumentNode.OuterHtml -split "`n" | Select-String "Your search did not")
-if ($failed) {
-  throw "http://www.seilbahntechnik.net says $failed"
+  $failed = ($h.DocumentNode.OuterHtml -split "`n" | Select-String "Your search did not")
+  if ($failed) {
+    write-warning "http://www.seilbahntechnik.net says $failed, trying next"
+  } else {
+    break
+  }
 }
 
 $n = $h.DocumentNode.CreateNavigator()
