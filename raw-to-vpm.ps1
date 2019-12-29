@@ -108,10 +108,4 @@ $table = $lifts | % {
   }
 }
 
-if ($false) {
-  $filename = "vpm/$area.txt" -replace " ","_"
-  write-host "dokuwiki filename [$filename]"
-  $table | out-file -enc utf8 "$filename"
-}
-
 $table
