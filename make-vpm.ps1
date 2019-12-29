@@ -12,7 +12,7 @@ if (!$raw.count) {
   return
 }
 
-$filename = "data/$area.txt" -replace " ","_"
+$filename = "data/$area.md" -replace "[* ]","_"
 write-host "dokuwiki filename [$filename]"
 
 $table = ./raw-to-vpm.ps1 $area $raw -filename $filename

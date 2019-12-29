@@ -112,6 +112,6 @@ $table = $lifts | % {
 
 if ($filename) {
   $table | out-file -enc utf8 "$filename"
-} else {
-  $table
-}
+} 
+
+$table
