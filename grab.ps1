@@ -51,9 +51,6 @@ $fields = @{
   "Construction period" = '';
 }
 
-# make template object
-#TODO $objfields = @("replaced","name","place","type","url") + [string[]]($fields.values | ? { $_ -ne '' })
-
 # https://lift-world.info/en/lifts/searchresult.htm?sprache=en&suchoption=erweitert&eOrt=whistler
 
 $base = 'https://lift-world.info'
@@ -66,7 +63,7 @@ $url+= "&liftstatus1=1&liftstatus2=1&liftstatus3=1" # Remove replaced/decomissio
 write-host "$url"
 $h = ./http-get-html $url
 
-$failed = ($h.DocumentNode.OuterHtml -split "`n" | sls "Your search did not")
+$failed = ($h.DocumentNode.OuterHtml -split "`n" | Select-String "Your search did not")
 if ($failed) {
   throw "http://www.seilbahntechnik.net says $failed"
 }
@@ -91,7 +88,7 @@ function strip([string]$s) {
   $s -replace "[`n`r`t]",' ' -replace '&nbsp;',' ' -replace "[`n`r`t ]+$",'' -replace "^[`n`r`t ]+",''
 }
 
-$fieldnames = @("replaced","name","place","type","url") + ($fields.Values | Where-Object { $_ -ne '' } | Sort-Object -Unique)
+$fieldnames = @("name","place","type","url") + ($fields.Values | Where-Object { $_ -ne '' } | Sort-Object -Unique)
 
 $lifts | ForEach-Object {
   $url = $_
@@ -130,14 +127,9 @@ $lifts | ForEach-Object {
       write-host "$($out.name) closed in $($out.closed)";
       continue
     }
-
-    $replaced_str = ''
-    if ($_.replaced) {
-      $replaced_str = ' [RIP]'
-    }
   }
   
-  write-host "$($out.name)$replaced_str $($out.type) $($out.time) $($out.vert) $($out.speed)`n"
+  write-host "$($out.name) $($out.type) $($out.time) $($out.vert) $($out.speed)`n"
   # And emit to the stream
   $out
 }
