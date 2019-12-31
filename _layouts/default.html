@@ -20,7 +20,11 @@
           {% endif %}
 
           <h1 id="project_title">{{ site.title | default: site.github.repository_name }}</h1>
-          <h2 id="project_tagline">{{ site.description | default: site.github.project_tagline }}</h2>
+          <h2 id="project_tagline">{{ site.description | default: site.github.project_tagline }}. 
+            By <a href="http://awf.fitzgibbon.ie">http://awf.fitzgibbon.ie</a>
+            <a href="https://twitter.com/share?ref_src=twsrc%5Etfw" class="twitter-share-button" data-show-count="false">Tweet</a>
+            <script async src="https://platform.twitter.com/widgets.js" charset="utf-8"></script>
+        </h2>
 
           {% if site.show_downloads %}
             <section id="downloads">

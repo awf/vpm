@@ -108,7 +108,7 @@ $table = $lifts | ForEach-Object {
     $length = "{0,6:N0}" -f [math]::round($_.length)
     "| $($_.Name) | $type |  $vpm |  $vert |  $time |  $speed |  $length | $link |" 
   } else {
-    "| $($_.Name)\\ [$note] | $($_.type) |  $($_.vert_raw) | $($_.time_raw) | N/A | $($_.speed_raw) | $($_.length_raw) | $link |" 
+    "| _$($_.Name)_ | $($_.type) |  $($_.vert_raw) | $($_.time_raw) | N/A | $($_.speed_raw) | $($_.length_raw) | $link |" 
   }
 }
 

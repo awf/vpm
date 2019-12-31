@@ -9,8 +9,8 @@ See [vpm](/) for blurb on how to read the table.
 | Mt. Rainier Gondola [*] | 8-MGD |    85.2 |    748 |    8.78 |     4.0 |   2,107 | [link](https://lift-world.info/en/lifts/15223/datas.htm) |
 | Mt. Rainier Gondola | 8-MGD |    77.9 |    748 |    9.60 |     4.0 |   2,107 | [link](https://lift-world.info/en/lifts/15223/datas.htm) |
 | Northway | 2-CLF |    56.9 |    562 |    9.87 |     2.8 |   1,653 | [link](https://lift-world.info/en/lifts/12425/datas.htm) |
-| Rendezvous\\ [] | 3-CLF |  ?? m | ?? min | N/A | ?? m/s | ?? m | [link](https://lift-world.info/en/lifts/1072/datas.htm) |
-| Green Valley Express\\ [] | 4-CLD |  ?? m | ?? min | N/A | ?? m/s | ?? m | [link](https://lift-world.info/en/lifts/528/datas.htm) |
-| Forest QueenExpress\\ [] | 6-CLD |  ?? m | ?? min | N/A | ?? m/s | ?? m | [link](https://lift-world.info/en/lifts/98/datas.htm) |
-| Discovery\\ [] | 3-CLF |  ?? m | ?? min | N/A | ?? m/s | ?? m | [link](https://lift-world.info/en/lifts/1081/datas.htm) |
-| Chinook Express\\ [] | 6-CLD |  260,5 m | ?? min | N/A | ?? m/s | 1205 m | [link](https://lift-world.info/en/lifts/99/datas.htm) |
+| _Rendezvous_ | 3-CLF |  ?? m | ?? min | N/A | ?? m/s | ?? m | [link](https://lift-world.info/en/lifts/1072/datas.htm) |
+| _Green Valley Express_ | 4-CLD |  ?? m | ?? min | N/A | ?? m/s | ?? m | [link](https://lift-world.info/en/lifts/528/datas.htm) |
+| _Forest QueenExpress_ | 6-CLD |  ?? m | ?? min | N/A | ?? m/s | ?? m | [link](https://lift-world.info/en/lifts/98/datas.htm) |
+| _Discovery_ | 3-CLF |  ?? m | ?? min | N/A | ?? m/s | ?? m | [link](https://lift-world.info/en/lifts/1081/datas.htm) |
+| _Chinook Express_ | 6-CLD |  260,5 m | ?? min | N/A | ?? m/s | 1205 m | [link](https://lift-world.info/en/lifts/99/datas.htm) |

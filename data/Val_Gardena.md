@@ -56,40 +56,40 @@ See [vpm](/) for blurb on how to read the table.
 | Comici 2 | 2-CLF |    24.6 |     87 |    3.53 |     2.3 |     363 | [link](https://lift-world.info/en/lifts/13004/datas.htm) |
 | Parallel | 1-SL |    20.0 |     70 |    3.50 |     3.0 |     630 | [link](https://lift-world.info/en/lifts/3806/datas.htm) |
 | Tieja | 1-SL |    19.1 |     26 |    1.36 |     2.5 |     204 | [link](https://lift-world.info/en/lifts/14756/datas.htm) |
-| Comici 2\\ [] | 1-SL |  ?? m | ?? min | N/A | ?? m/s | ?? m | [link](https://lift-world.info/en/lifts/17896/datas.htm) |
-| Cendevaves\\ [] | 1-SL |  ?? m | ?? min | N/A | ?? m/s | ?? m | [link](https://lift-world.info/en/lifts/17954/datas.htm) |
-| Risaccia 1\\ [] | 1-SL |  ?? m | ?? min | N/A | ?? m/s | ?? m | [link](https://lift-world.info/en/lifts/3795/datas.htm) |
-| Risaccia 2\\ [] | 1-SL |  ?? m | ?? min | N/A | ?? m/s | ?? m | [link](https://lift-world.info/en/lifts/3796/datas.htm) |
-| San Giacomo\\ [] | 2-BL |  165 m | ?? min | N/A | 1,5 m/s | ?? m | [link](https://lift-world.info/en/lifts/13937/datas.htm) |
-| Ronc\\ [] | 1-SL |  ?? m | ?? min | N/A | ?? m/s | ?? m | [link](https://lift-world.info/en/lifts/17961/datas.htm) |
-| Senoner / Plan de Gralba\\ [] | 1-SL |  ?? m | ?? min | N/A | ?? m/s | ?? m | [link](https://lift-world.info/en/lifts/17901/datas.htm) |
-| Senoner / Plan de Gralba\\ [] | 1-SL |  ?? m | ?? min | N/A | ?? m/s | ?? m | [link](https://lift-world.info/en/lifts/3797/datas.htm) |
-| Sole\\ [] | 3-CLF |  ?? m | ?? min | N/A | ?? m/s | 541 m | [link](https://lift-world.info/en/lifts/11257/datas.htm) |
-| Palmer\\ [] | 1-SL |  46 m | ?? min | N/A | ?? m/s | ?? m | [link](https://lift-world.info/en/lifts/3809/datas.htm) |
-| Terza Punta\\ [] | 1-SL |  ?? m | ?? min | N/A | ?? m/s | ?? m | [link](https://lift-world.info/en/lifts/17902/datas.htm) |
-| Furnes-Seceda\\ [] | 64-AT |  732 m | ?? min | N/A | ?? m/s | 2045,46 m | [link](https://lift-world.info/en/lifts/3738/datas.htm) |
-| Furdenan\\ [] | 1-SL |  ?? m | ?? min | N/A | ?? m/s | ?? m | [link](https://lift-world.info/en/lifts/17960/datas.htm) |
-| Fermedahütte - Seceda\\ [] | 1-CLF |  410 m | ?? min | N/A | ?? m/s | 1414 m | [link](https://lift-world.info/en/lifts/17959/datas.htm) |
-| Cuca\\ [] | 1-SL |  ?? m | ?? min | N/A | ?? m/s | ?? m | [link](https://lift-world.info/en/lifts/17958/datas.htm) |
-| Pudra\\ [] | 1-SL |  ?? m | ?? min | N/A | ?? m/s | ?? m | [link](https://lift-world.info/en/lifts/17900/datas.htm) |
-| Col Raiser\\ [] | 2-BL |  ?? m | ?? min | N/A | ?? m/s | ?? m | [link](https://lift-world.info/en/lifts/13936/datas.htm) |
-| Piz Sella 1\\ [] | 3-CLF |  139 m | ?? min | N/A | ?? m/s | 863 m | [link](https://lift-world.info/en/lifts/17015/datas.htm) |
-| Passo Sella\\ [] | 1-SL |  ?? m | ?? min | N/A | ?? m/s | ?? m | [link](https://lift-world.info/en/lifts/13311/datas.htm) |
-| Dantercepies\\ [] | 2-BL |  ?? m | ?? min | N/A | ?? m/s | ?? m | [link](https://lift-world.info/en/lifts/13946/datas.htm) |
-| Dolomiti\\ [] | 1-SL |  ?? m | ?? min | N/A | ?? m/s | ?? m | [link](https://lift-world.info/en/lifts/13005/datas.htm) |
-| Campo Freina\\ [] | 1-SL |  ?? m | ?? min | N/A | ?? m/s | ?? m | [link](https://lift-world.info/en/lifts/13328/datas.htm) |
-| Campo Freina\\ [] | 1-SL |  ?? m | ?? min | N/A | ?? m/s | ?? m | [link](https://lift-world.info/en/lifts/17899/datas.htm) |
-| Cadepunt\\ [] | 1-SL |  ?? m | ?? min | N/A | ?? m/s | ?? m | [link](https://lift-world.info/en/lifts/17898/datas.htm) |
-| Biancaneve\\ [] | 1-SL |  ?? m | ?? min | N/A | ?? m/s | ?? m | [link](https://lift-world.info/en/lifts/17897/datas.htm) |
-| Gran Paradiso\\ [] | 8-CLD/B |  ?? m | 3,5 min | N/A | 5 m/s | 1006 m | [link](https://lift-world.info/en/lifts/18225/datas.htm) |
-| Comici 1\\ [] | 1-SL |  ?? m | ?? min | N/A | ?? m/s | ?? m | [link](https://lift-world.info/en/lifts/17895/datas.htm) |
-| Gran Paradiso\\ [] | 1-SL |  208 m | ?? min | N/A | ?? m/s | 1018 m | [link](https://lift-world.info/en/lifts/3801/datas.htm) |
-| Larciunei\\ [] | 1-SL |  ?? m | ?? min | N/A | ?? m/s | ?? m | [link](https://lift-world.info/en/lifts/3800/datas.htm) |
-| Malga Cir\\ [] | 2-SL |  ?? m | ?? min | N/A | ?? m/s | ?? m | [link](https://lift-world.info/en/lifts/18058/datas.htm) |
-| Puntea\\ [] | 1-SL |  ?? m | ?? min | N/A | ?? m/s | ?? m | [link](https://lift-world.info/en/lifts/3807/datas.htm) |
-| Monte Carlo\\ [] | 1-SL |  ?? m | ?? min | N/A | ?? m/s | ?? m | [link](https://lift-world.info/en/lifts/18059/datas.htm) |
-| Nives\\ [] | 1-SL |  ?? m | ?? min | N/A | ?? m/s | ?? m | [link](https://lift-world.info/en/lifts/3799/datas.htm) |
-| Juac\\ [] | 1-SL |  ?? m | ?? min | N/A | ?? m/s | ?? m | [link](https://lift-world.info/en/lifts/17955/datas.htm) |
-| Panorama\\ [] | 1-SL |  ?? m | ?? min | N/A | ?? m/s | ?? m | [link](https://lift-world.info/en/lifts/3798/datas.htm) |
-| Tschucky\\ [] | 1-SL |  ?? m | ?? min | N/A | ?? m/s | ?? m | [link](https://lift-world.info/en/lifts/17956/datas.htm) |
-| Catores\\ [] | 1-SL |  170 m | ?? min | N/A | ?? m/s | 450 m | [link](https://lift-world.info/en/lifts/17957/datas.htm) |
+| _Comici 2_ | 1-SL |  ?? m | ?? min | N/A | ?? m/s | ?? m | [link](https://lift-world.info/en/lifts/17896/datas.htm) |
+| _Cendevaves_ | 1-SL |  ?? m | ?? min | N/A | ?? m/s | ?? m | [link](https://lift-world.info/en/lifts/17954/datas.htm) |
+| _Risaccia 1_ | 1-SL |  ?? m | ?? min | N/A | ?? m/s | ?? m | [link](https://lift-world.info/en/lifts/3795/datas.htm) |
+| _Risaccia 2_ | 1-SL |  ?? m | ?? min | N/A | ?? m/s | ?? m | [link](https://lift-world.info/en/lifts/3796/datas.htm) |
+| _San Giacomo_ | 2-BL |  165 m | ?? min | N/A | 1,5 m/s | ?? m | [link](https://lift-world.info/en/lifts/13937/datas.htm) |
+| _Ronc_ | 1-SL |  ?? m | ?? min | N/A | ?? m/s | ?? m | [link](https://lift-world.info/en/lifts/17961/datas.htm) |
+| _Senoner / Plan de Gralba_ | 1-SL |  ?? m | ?? min | N/A | ?? m/s | ?? m | [link](https://lift-world.info/en/lifts/17901/datas.htm) |
+| _Senoner / Plan de Gralba_ | 1-SL |  ?? m | ?? min | N/A | ?? m/s | ?? m | [link](https://lift-world.info/en/lifts/3797/datas.htm) |
+| _Sole_ | 3-CLF |  ?? m | ?? min | N/A | ?? m/s | 541 m | [link](https://lift-world.info/en/lifts/11257/datas.htm) |
+| _Palmer_ | 1-SL |  46 m | ?? min | N/A | ?? m/s | ?? m | [link](https://lift-world.info/en/lifts/3809/datas.htm) |
+| _Terza Punta_ | 1-SL |  ?? m | ?? min | N/A | ?? m/s | ?? m | [link](https://lift-world.info/en/lifts/17902/datas.htm) |
+| _Furnes-Seceda_ | 64-AT |  732 m | ?? min | N/A | ?? m/s | 2045,46 m | [link](https://lift-world.info/en/lifts/3738/datas.htm) |
+| _Furdenan_ | 1-SL |  ?? m | ?? min | N/A | ?? m/s | ?? m | [link](https://lift-world.info/en/lifts/17960/datas.htm) |
+| _Fermedahütte - Seceda_ | 1-CLF |  410 m | ?? min | N/A | ?? m/s | 1414 m | [link](https://lift-world.info/en/lifts/17959/datas.htm) |
+| _Cuca_ | 1-SL |  ?? m | ?? min | N/A | ?? m/s | ?? m | [link](https://lift-world.info/en/lifts/17958/datas.htm) |
+| _Pudra_ | 1-SL |  ?? m | ?? min | N/A | ?? m/s | ?? m | [link](https://lift-world.info/en/lifts/17900/datas.htm) |
+| _Col Raiser_ | 2-BL |  ?? m | ?? min | N/A | ?? m/s | ?? m | [link](https://lift-world.info/en/lifts/13936/datas.htm) |
+| _Piz Sella 1_ | 3-CLF |  139 m | ?? min | N/A | ?? m/s | 863 m | [link](https://lift-world.info/en/lifts/17015/datas.htm) |
+| _Passo Sella_ | 1-SL |  ?? m | ?? min | N/A | ?? m/s | ?? m | [link](https://lift-world.info/en/lifts/13311/datas.htm) |
+| _Dantercepies_ | 2-BL |  ?? m | ?? min | N/A | ?? m/s | ?? m | [link](https://lift-world.info/en/lifts/13946/datas.htm) |
+| _Dolomiti_ | 1-SL |  ?? m | ?? min | N/A | ?? m/s | ?? m | [link](https://lift-world.info/en/lifts/13005/datas.htm) |
+| _Campo Freina_ | 1-SL |  ?? m | ?? min | N/A | ?? m/s | ?? m | [link](https://lift-world.info/en/lifts/13328/datas.htm) |
+| _Campo Freina_ | 1-SL |  ?? m | ?? min | N/A | ?? m/s | ?? m | [link](https://lift-world.info/en/lifts/17899/datas.htm) |
+| _Cadepunt_ | 1-SL |  ?? m | ?? min | N/A | ?? m/s | ?? m | [link](https://lift-world.info/en/lifts/17898/datas.htm) |
+| _Biancaneve_ | 1-SL |  ?? m | ?? min | N/A | ?? m/s | ?? m | [link](https://lift-world.info/en/lifts/17897/datas.htm) |
+| _Gran Paradiso_ | 8-CLD/B |  ?? m | 3,5 min | N/A | 5 m/s | 1006 m | [link](https://lift-world.info/en/lifts/18225/datas.htm) |
+| _Comici 1_ | 1-SL |  ?? m | ?? min | N/A | ?? m/s | ?? m | [link](https://lift-world.info/en/lifts/17895/datas.htm) |
+| _Gran Paradiso_ | 1-SL |  208 m | ?? min | N/A | ?? m/s | 1018 m | [link](https://lift-world.info/en/lifts/3801/datas.htm) |
+| _Larciunei_ | 1-SL |  ?? m | ?? min | N/A | ?? m/s | ?? m | [link](https://lift-world.info/en/lifts/3800/datas.htm) |
+| _Malga Cir_ | 2-SL |  ?? m | ?? min | N/A | ?? m/s | ?? m | [link](https://lift-world.info/en/lifts/18058/datas.htm) |
+| _Puntea_ | 1-SL |  ?? m | ?? min | N/A | ?? m/s | ?? m | [link](https://lift-world.info/en/lifts/3807/datas.htm) |
+| _Monte Carlo_ | 1-SL |  ?? m | ?? min | N/A | ?? m/s | ?? m | [link](https://lift-world.info/en/lifts/18059/datas.htm) |
+| _Nives_ | 1-SL |  ?? m | ?? min | N/A | ?? m/s | ?? m | [link](https://lift-world.info/en/lifts/3799/datas.htm) |
+| _Juac_ | 1-SL |  ?? m | ?? min | N/A | ?? m/s | ?? m | [link](https://lift-world.info/en/lifts/17955/datas.htm) |
+| _Panorama_ | 1-SL |  ?? m | ?? min | N/A | ?? m/s | ?? m | [link](https://lift-world.info/en/lifts/3798/datas.htm) |
+| _Tschucky_ | 1-SL |  ?? m | ?? min | N/A | ?? m/s | ?? m | [link](https://lift-world.info/en/lifts/17956/datas.htm) |
+| _Catores_ | 1-SL |  170 m | ?? min | N/A | ?? m/s | 450 m | [link](https://lift-world.info/en/lifts/17957/datas.htm) |

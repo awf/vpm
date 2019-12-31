@@ -11,19 +11,19 @@ See [vpm](/) for blurb on how to read the table.
 | White Lady Chairlift | 2-CLD |    22.5 |    337 |   15.00 |     2.0 |   1,106 | [link](https://lift-world.info/en/lifts/277/datas.htm) |
 | Car Park Chairlift [*] | 2-CLD |    19.0 |    110 |    5.78 |     2.0 |     694 | [link](https://lift-world.info/en/lifts/14428/datas.htm) |
 | Car Park Chairlift | 2-CLD |     7.3 |    110 |   15.00 |     2.0 |     694 | [link](https://lift-world.info/en/lifts/14428/datas.htm) |
-| White Lady T-Bar Tow\\ [] | 2-SL |  331 m | ?? min | N/A | ?? m/s | 1088 m | [link](https://lift-world.info/en/lifts/14495/datas.htm) |
-| Car Park Tow\\ [] | 2-SL |  ?? m | ?? min | N/A | ?? m/s | ?? m | [link](https://lift-world.info/en/lifts/14485/datas.htm) |
-| Coire Cas Tow\\ [] | 2-SL |  ?? m | ?? min | N/A | ?? m/s | ?? m | [link](https://lift-world.info/en/lifts/14486/datas.htm) |
-| Coire Na Ciste Chairlift\\ [] | 2-CLF |  ?? m | ?? min | N/A | ?? m/s | ?? m | [link](https://lift-world.info/en/lifts/13162/datas.htm) |
-| Coire Na Ciste Tow\\ [] | 2-SL |  ?? m | ?? min | N/A | ?? m/s | ?? m | [link](https://lift-world.info/en/lifts/14487/datas.htm) |
-| Day Lodge Poma\\ [] | 1-SL |  ?? m | ?? min | N/A | ?? m/s | ?? m | [link](https://lift-world.info/en/lifts/18237/datas.htm) |
-| Fiacaill T Bar\\ [] | 2-SL |  ?? m | ?? min | N/A | ?? m/s | ?? m | [link](https://lift-world.info/en/lifts/14489/datas.htm) |
-| Link Poma\\ [] | 1-SL |  ?? m | ?? min | N/A | ?? m/s | ?? m | [link](https://lift-world.info/en/lifts/14490/datas.htm) |
-| M1 Poma\\ [] | 1-SL |  ?? m | ?? min | N/A | ?? m/s | ?? m | [link](https://lift-world.info/en/lifts/14491/datas.htm) |
-| Polar express\\ [] | 1-SL |  ?? m | ?? min | N/A | ?? m/s | ?? m | [link](https://lift-world.info/en/lifts/18238/datas.htm) |
-| Ptarmigan Tow\\ [] | 2-SL |  ?? m | ?? min | N/A | ?? m/s | ?? m | [link](https://lift-world.info/en/lifts/14492/datas.htm) |
-| Sheiling Tow\\ [] | 1-SL |  ?? m | ?? min | N/A | ?? m/s | ?? m | [link](https://lift-world.info/en/lifts/14493/datas.htm) |
-| West Wall Chairlift\\ [] | 2-CLF |  ?? m | ?? min | N/A | ?? m/s | ?? m | [link](https://lift-world.info/en/lifts/13163/datas.htm) |
-| West Wall Poma\\ [] | 1-SL |  ?? m | ?? min | N/A | ?? m/s | ?? m | [link](https://lift-world.info/en/lifts/14494/datas.htm) |
-| Fiacaill Ridge Poma\\ [] | 1-SL |  ?? m | ?? min | N/A | ?? m/s | ?? m | [link](https://lift-world.info/en/lifts/14488/datas.htm) |
-| Aonach Poma\\ [] | 1-SL |  ?? m | ?? min | N/A | ?? m/s | ?? m | [link](https://lift-world.info/en/lifts/14484/datas.htm) |
+| _White Lady T-Bar Tow_ | 2-SL |  331 m | ?? min | N/A | ?? m/s | 1088 m | [link](https://lift-world.info/en/lifts/14495/datas.htm) |
+| _Car Park Tow_ | 2-SL |  ?? m | ?? min | N/A | ?? m/s | ?? m | [link](https://lift-world.info/en/lifts/14485/datas.htm) |
+| _Coire Cas Tow_ | 2-SL |  ?? m | ?? min | N/A | ?? m/s | ?? m | [link](https://lift-world.info/en/lifts/14486/datas.htm) |
+| _Coire Na Ciste Chairlift_ | 2-CLF |  ?? m | ?? min | N/A | ?? m/s | ?? m | [link](https://lift-world.info/en/lifts/13162/datas.htm) |
+| _Coire Na Ciste Tow_ | 2-SL |  ?? m | ?? min | N/A | ?? m/s | ?? m | [link](https://lift-world.info/en/lifts/14487/datas.htm) |
+| _Day Lodge Poma_ | 1-SL |  ?? m | ?? min | N/A | ?? m/s | ?? m | [link](https://lift-world.info/en/lifts/18237/datas.htm) |
+| _Fiacaill T Bar_ | 2-SL |  ?? m | ?? min | N/A | ?? m/s | ?? m | [link](https://lift-world.info/en/lifts/14489/datas.htm) |
+| _Link Poma_ | 1-SL |  ?? m | ?? min | N/A | ?? m/s | ?? m | [link](https://lift-world.info/en/lifts/14490/datas.htm) |
+| _M1 Poma_ | 1-SL |  ?? m | ?? min | N/A | ?? m/s | ?? m | [link](https://lift-world.info/en/lifts/14491/datas.htm) |
+| _Polar express_ | 1-SL |  ?? m | ?? min | N/A | ?? m/s | ?? m | [link](https://lift-world.info/en/lifts/18238/datas.htm) |
+| _Ptarmigan Tow_ | 2-SL |  ?? m | ?? min | N/A | ?? m/s | ?? m | [link](https://lift-world.info/en/lifts/14492/datas.htm) |
+| _Sheiling Tow_ | 1-SL |  ?? m | ?? min | N/A | ?? m/s | ?? m | [link](https://lift-world.info/en/lifts/14493/datas.htm) |
+| _West Wall Chairlift_ | 2-CLF |  ?? m | ?? min | N/A | ?? m/s | ?? m | [link](https://lift-world.info/en/lifts/13163/datas.htm) |
+| _West Wall Poma_ | 1-SL |  ?? m | ?? min | N/A | ?? m/s | ?? m | [link](https://lift-world.info/en/lifts/14494/datas.htm) |
+| _Fiacaill Ridge Poma_ | 1-SL |  ?? m | ?? min | N/A | ?? m/s | ?? m | [link](https://lift-world.info/en/lifts/14488/datas.htm) |
+| _Aonach Poma_ | 1-SL |  ?? m | ?? min | N/A | ?? m/s | ?? m | [link](https://lift-world.info/en/lifts/14484/datas.htm) |

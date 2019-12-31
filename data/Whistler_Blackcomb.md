@@ -33,24 +33,24 @@ See [vpm](/) for blurb on how to read the table.
 | Peak2Peak Gondola [*] | 28-BGD |     3.6 |     36 |   10.04 |     7.5 |   4,516 | [link](https://lift-world.info/en/lifts/13214/datas.htm) |
 | Peak2Peak Gondola | 28-BGD |     3.3 |     36 |   11.00 |     7.5 |   4,516 | [link](https://lift-world.info/en/lifts/13214/datas.htm) |
 | Excelerator Express | 4-CLD |     1.0 |    514 |  536.00 |     5.1 |   1,703 | [link](https://lift-world.info/en/lifts/3496/datas.htm) |
-| Blue Chair\\ [] | 2-CLF |  ?? m | ?? min | N/A | ?? m/s | ?? m | [link](https://lift-world.info/en/lifts/13199/datas.htm) |
-| Catskinner\\ [] | 3-CLF |  ?? m | ?? min | N/A | 2,4 m/s | 1375 m | [link](https://lift-world.info/en/lifts/3498/datas.htm) |
-| Cruiser Chair\\ [] | 3-CLF |  ?? m | ?? min | N/A | ?? m/s | ?? m | [link](https://lift-world.info/en/lifts/13200/datas.htm) |
-| Black Chair\\ [] | 3-CLF |  ?? m | ?? min | N/A | ?? m/s | ?? m | [link](https://lift-world.info/en/lifts/13198/datas.htm) |
-| Red Chair\\ [] | 2-CLF |  ?? m | ?? min | N/A | ?? m/s | ?? m | [link](https://lift-world.info/en/lifts/13209/datas.htm) |
-| Village Chair\\ [] | 3-CLF |  ?? m | ?? min | N/A | ?? m/s | ?? m | [link](https://lift-world.info/en/lifts/13213/datas.htm) |
-| Franz´s\\ [] | 3-CLF |  272 m | ?? min | N/A | ?? m/s | ?? m | [link](https://lift-world.info/en/lifts/3507/datas.htm) |
-| Redline Express\\ [] | 4-CLD |  ?? m | ?? min | N/A | ?? m/s | ?? m | [link](https://lift-world.info/en/lifts/13210/datas.htm) |
-| T-Bar 2\\ [] | 2-SL |  188 m | ?? min | N/A | ?? m/s | ?? m | [link](https://lift-world.info/en/lifts/3509/datas.htm) |
-| Gondola\\ [] | 4-MGD |  ?? m | ?? min | N/A | ?? m/s | ?? m | [link](https://lift-world.info/en/lifts/13202/datas.htm) |
-| Greenline Express\\ [] | 4-CLD |  ?? m | ?? min | N/A | ?? m/s | ?? m | [link](https://lift-world.info/en/lifts/13203/datas.htm) |
-| T-Bar 1\\ [] | 2-SL |  188 m | ?? min | N/A | ?? m/s | ?? m | [link](https://lift-world.info/en/lifts/3508/datas.htm) |
-| Symphony Express\\ [] | 4-CLD |  509 m | ?? min | N/A | ?? m/s | 2112 m | [link](https://lift-world.info/en/lifts/10757/datas.htm) |
-| Stoker Chair\\ [] | 3-CLF |  ?? m | ?? min | N/A | ?? m/s | ?? m | [link](https://lift-world.info/en/lifts/13212/datas.htm) |
-| Little Red Chair\\ [] | 2-CLF |  ?? m | ?? min | N/A | ?? m/s | ?? m | [link](https://lift-world.info/en/lifts/13205/datas.htm) |
-| Magic\\ [] | 3-CLF |  94 m | ?? min | N/A | ?? m/s | 620 m | [link](https://lift-world.info/en/lifts/3515/datas.htm) |
-| Olive Chair\\ [] | 2-CLF |  ?? m | ?? min | N/A | ?? m/s | ?? m | [link](https://lift-world.info/en/lifts/13206/datas.htm) |
-| Skidder Chair\\ [] | 2-CLF |  ?? m | ?? min | N/A | ?? m/s | ?? m | [link](https://lift-world.info/en/lifts/13211/datas.htm) |
-| Quicksilver Express\\ [] | 4-CLD/B |  ?? m | ?? min | N/A | ?? m/s | ?? m | [link](https://lift-world.info/en/lifts/13208/datas.htm) |
-| Fitzsimmons Chair\\ [] | 3-CLF |  ?? m | ?? min | N/A | ?? m/s | ?? m | [link](https://lift-world.info/en/lifts/13201/datas.htm) |
-| Jersey Cream Chair\\ [] | 3-CLF |  ?? m | ?? min | N/A | ?? m/s | ?? m | [link](https://lift-world.info/en/lifts/13204/datas.htm) |
+| _Blue Chair_ | 2-CLF |  ?? m | ?? min | N/A | ?? m/s | ?? m | [link](https://lift-world.info/en/lifts/13199/datas.htm) |
+| _Catskinner_ | 3-CLF |  ?? m | ?? min | N/A | 2,4 m/s | 1375 m | [link](https://lift-world.info/en/lifts/3498/datas.htm) |
+| _Cruiser Chair_ | 3-CLF |  ?? m | ?? min | N/A | ?? m/s | ?? m | [link](https://lift-world.info/en/lifts/13200/datas.htm) |
+| _Black Chair_ | 3-CLF |  ?? m | ?? min | N/A | ?? m/s | ?? m | [link](https://lift-world.info/en/lifts/13198/datas.htm) |
+| _Red Chair_ | 2-CLF |  ?? m | ?? min | N/A | ?? m/s | ?? m | [link](https://lift-world.info/en/lifts/13209/datas.htm) |
+| _Village Chair_ | 3-CLF |  ?? m | ?? min | N/A | ?? m/s | ?? m | [link](https://lift-world.info/en/lifts/13213/datas.htm) |
+| _Franz´s_ | 3-CLF |  272 m | ?? min | N/A | ?? m/s | ?? m | [link](https://lift-world.info/en/lifts/3507/datas.htm) |
+| _Redline Express_ | 4-CLD |  ?? m | ?? min | N/A | ?? m/s | ?? m | [link](https://lift-world.info/en/lifts/13210/datas.htm) |
+| _T-Bar 2_ | 2-SL |  188 m | ?? min | N/A | ?? m/s | ?? m | [link](https://lift-world.info/en/lifts/3509/datas.htm) |
+| _Gondola_ | 4-MGD |  ?? m | ?? min | N/A | ?? m/s | ?? m | [link](https://lift-world.info/en/lifts/13202/datas.htm) |
+| _Greenline Express_ | 4-CLD |  ?? m | ?? min | N/A | ?? m/s | ?? m | [link](https://lift-world.info/en/lifts/13203/datas.htm) |
+| _T-Bar 1_ | 2-SL |  188 m | ?? min | N/A | ?? m/s | ?? m | [link](https://lift-world.info/en/lifts/3508/datas.htm) |
+| _Symphony Express_ | 4-CLD |  509 m | ?? min | N/A | ?? m/s | 2112 m | [link](https://lift-world.info/en/lifts/10757/datas.htm) |
+| _Stoker Chair_ | 3-CLF |  ?? m | ?? min | N/A | ?? m/s | ?? m | [link](https://lift-world.info/en/lifts/13212/datas.htm) |
+| _Little Red Chair_ | 2-CLF |  ?? m | ?? min | N/A | ?? m/s | ?? m | [link](https://lift-world.info/en/lifts/13205/datas.htm) |
+| _Magic_ | 3-CLF |  94 m | ?? min | N/A | ?? m/s | 620 m | [link](https://lift-world.info/en/lifts/3515/datas.htm) |
+| _Olive Chair_ | 2-CLF |  ?? m | ?? min | N/A | ?? m/s | ?? m | [link](https://lift-world.info/en/lifts/13206/datas.htm) |
+| _Skidder Chair_ | 2-CLF |  ?? m | ?? min | N/A | ?? m/s | ?? m | [link](https://lift-world.info/en/lifts/13211/datas.htm) |
+| _Quicksilver Express_ | 4-CLD/B |  ?? m | ?? min | N/A | ?? m/s | ?? m | [link](https://lift-world.info/en/lifts/13208/datas.htm) |
+| _Fitzsimmons Chair_ | 3-CLF |  ?? m | ?? min | N/A | ?? m/s | ?? m | [link](https://lift-world.info/en/lifts/13201/datas.htm) |
+| _Jersey Cream Chair_ | 3-CLF |  ?? m | ?? min | N/A | ?? m/s | ?? m | [link](https://lift-world.info/en/lifts/13204/datas.htm) |
