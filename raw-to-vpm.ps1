@@ -88,11 +88,7 @@ $date = get-date -format y
 $table = $lifts | ForEach-Object {
   "## Lift data for places matching `"$area`""
   "Collected on $date"
-  ""
-  "See [vpm](/) for blurb on how to read the table."
-  ""
-  "| Lift | Type |  VPM (m/min) |  Vertical Rise |  Time (min) |  Line Speed (m/sec) |  Line length (m) | Link |"
-  "| -- | -- | -- | -- | -- | -- | -- | -- |"
+  Get-Content header.md
 } {
   $link = "[link]($($_.url))"
   if ($_.valid) {

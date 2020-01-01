@@ -7,9 +7,10 @@ But sometimes you just want to get lots of laps in,
 with the greatest possible height gain in the least time.
 You know some of the rules: use the steepest lifts, try the gondolas, 
 but is it better to take that 7-minute fast chair or the steep 10-minute T bar?
-So I want to maximize VPM (Vert per Minute).
-
-Runs are manual, to avoid spamming seilbahntechnik.net, so here are the manually-curated links to recent runs:
+So I want to maximize VPM (Vert per Minute).  
+The excellent folks at http://seilbahntechnik.net have the data needed to compute VPM, 
+but it's not explicitly there, so these pages present the computation for some resorts of interest to me.
+Runs are manual, to avoid spamming seilbahntechnik.net, so post a [github](https://github.com/awf/vpm) issue if you want a new one done, or better still, run the code.
 
 * North America
   - [Whistler](data/Whistler_Blackcomb)
