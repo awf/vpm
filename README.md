@@ -29,9 +29,10 @@ Lift type also plays a rôle. Most of the high-VPM lifts are cable cars or train
 ## Running the code.
 
 ```
-PS> ./setup # installs HtmlAglityPack
-PS> ./make-vpm 'whistler' # Generates data/whistler.md
-PS> git commit -m 'DATA: whistler'
+PS> . ./setup # installs HtmlAglityPack
+PS> ./make-vpm 'Whistler' # Generates data/Whistler.{md,csv}
+PS> git add data/Whistler.*
+PS> git commit -m 'DATA: Whistler'
 PS> git push # update gh pages
 ```
 
