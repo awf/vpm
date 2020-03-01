@@ -17,6 +17,8 @@ Runs are manual, to avoid spamming seilbahntechnik.net, so post a [github](https
   - [Crystal Mountain](data/Crystal_Mountain)
 * Italy
   - [Val Gardena](data/Val_Gardena)
+* Switzerland
+  - [Grimentz](data/Grimentz)
 * Scotland
   - [Cairngorm](data/Cairngorm)
 
