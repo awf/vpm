@@ -1,5 +1,5 @@
 ## Lift data for places matching "Cairngorm"
-Collected on January 2020
+Collected on October 2021
 
 See [vpm](/vpm) for blurb on how to read the table.  Asterisked entries are estimated from line speed, if more than 15% different to the database ride time.
 

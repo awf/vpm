@@ -1,5 +1,5 @@
 ## Lift data for places matching "Val Gardena"
-Collected on January 2020
+Collected on October 2021
 
 See [vpm](/vpm) for blurb on how to read the table.  Asterisked entries are estimated from line speed, if more than 15% different to the database ride time.
 
@@ -28,6 +28,7 @@ See [vpm](/vpm) for blurb on how to read the table.  Asterisked entries are esti
 | Fermeda | 4-CLD |    67.7 |    472 |    6.98 |     4.5 |   1,884 | [link](https://lift-world.info/en/lifts/3792/datas.htm) |
 | Piz Seteur 1 | 10-MGD |    67.4 |    209 |    3.10 |     6.0 |     970 | [link](https://lift-world.info/en/lifts/18460/datas.htm) |
 | Comici 2 (Piz Sella 2) | 6-CLD |    66.9 |     86 |    1.29 |     4.2 |     324 | [link](https://lift-world.info/en/lifts/18072/datas.htm) |
+| Gran Paradiso | 8-CLD/B |    66.0 |    231 |    3.50 |     5.0 |   1,006 | [link](https://lift-world.info/en/lifts/18225/datas.htm) |
 | Costabella | 4-CLD |    59.9 |    178 |    2.98 |     2.5 |     446 | [link](https://lift-world.info/en/lifts/3742/datas.htm) |
 | Cir | 4-CLD |    59.3 |    174 |    2.94 |     4.0 |     705 | [link](https://lift-world.info/en/lifts/3743/datas.htm) |
 | Dantercepies | 6-MGD |    58.3 |    639 |   10.96 |     3.8 |   2,500 | [link](https://lift-world.info/en/lifts/15124/datas.htm) |
@@ -36,12 +37,12 @@ See [vpm](/vpm) for blurb on how to read the table.  Asterisked entries are esti
 | Ciampinoi | 2-CLF |    55.7 |    585 |   10.51 |     2.3 |   1,450 | [link](https://lift-world.info/en/lifts/3789/datas.htm) |
 | Ortisei-Furnes | 8-MGD |    54.9 |    468 |    8.53 |     5.0 |   2,558 | [link](https://lift-world.info/en/lifts/289/datas.htm) |
 | Sotsaslong | 4-CLD/B |    54.1 |    175 |    3.24 |     5.0 |     971 | [link](https://lift-world.info/en/lifts/11763/datas.htm) |
+| Sasso Levante | 6-CLD |    53.3 |    201 |    3.77 |     5.0 |   1,128 | [link](https://lift-world.info/en/lifts/15519/datas.htm) |
 | Comici 1 (Piz Sella 1) | 6-CLD/B |    52.6 |    152 |    2.88 |     5.0 |     864 | [link](https://lift-world.info/en/lifts/125/datas.htm) |
 | Città dei Sassi | 4-CLD/B |    52.1 |    224 |    4.30 |     5.0 |   1,264 | [link](https://lift-world.info/en/lifts/2082/datas.htm) |
 | Piza Pranseies | 2-CLF |    47.9 |    201 |    4.19 |     2.3 |     579 | [link](https://lift-world.info/en/lifts/3794/datas.htm) |
 | Val | 2-CLF |    46.2 |    206 |    4.47 |     2.8 |     752 | [link](https://lift-world.info/en/lifts/7923/datas.htm) |
 | Mont de Seura | 2-CLF |    44.8 |    370 |    8.25 |     2.5 |   1,238 | [link](https://lift-world.info/en/lifts/3787/datas.htm) |
-| Sasso Levante | 6-CLD |    44.7 |    201 |    4.50 |     4.2 |   1,128 | [link](https://lift-world.info/en/lifts/15519/datas.htm) |
 | Ciampinoi | 2-BL |    43.2 |    586 |   13.57 |     1.8 |   1,466 | [link](https://lift-world.info/en/lifts/13945/datas.htm) |
 | Catores | 2-CLF |    41.7 |    182 |    4.36 |     2.5 |     654 | [link](https://lift-world.info/en/lifts/3790/datas.htm) |
 | Val Setus | 4-CLF |    41.5 |    111 |    2.67 |     2.5 |     401 | [link](https://lift-world.info/en/lifts/2046/datas.htm) |
@@ -76,14 +77,13 @@ See [vpm](/vpm) for blurb on how to read the table.  Asterisked entries are esti
 | _Piz Sella 1_ | 3-CLF |  139 m | ?? min | N/A | ?? m/s | 863 m | [link](https://lift-world.info/en/lifts/17015/datas.htm) |
 | _Passo Sella_ | 1-SL |  ?? m | ?? min | N/A | ?? m/s | ?? m | [link](https://lift-world.info/en/lifts/13311/datas.htm) |
 | _Dantercepies_ | 2-BL |  ?? m | ?? min | N/A | ?? m/s | ?? m | [link](https://lift-world.info/en/lifts/13946/datas.htm) |
-| _Dolomiti_ | 1-SL |  ?? m | ?? min | N/A | ?? m/s | ?? m | [link](https://lift-world.info/en/lifts/13005/datas.htm) |
 | _Campo Freina_ | 1-SL |  ?? m | ?? min | N/A | ?? m/s | ?? m | [link](https://lift-world.info/en/lifts/13328/datas.htm) |
 | _Campo Freina_ | 1-SL |  ?? m | ?? min | N/A | ?? m/s | ?? m | [link](https://lift-world.info/en/lifts/17899/datas.htm) |
 | _Cadepunt_ | 1-SL |  ?? m | ?? min | N/A | ?? m/s | ?? m | [link](https://lift-world.info/en/lifts/17898/datas.htm) |
 | _Biancaneve_ | 1-SL |  ?? m | ?? min | N/A | ?? m/s | ?? m | [link](https://lift-world.info/en/lifts/17897/datas.htm) |
-| _Gran Paradiso_ | 8-CLD/B |  ?? m | 3,5 min | N/A | 5 m/s | 1006 m | [link](https://lift-world.info/en/lifts/18225/datas.htm) |
-| _Comici 1_ | 1-SL |  ?? m | ?? min | N/A | ?? m/s | ?? m | [link](https://lift-world.info/en/lifts/17895/datas.htm) |
+| _Dolomiti_ | 1-SL |  ?? m | ?? min | N/A | ?? m/s | ?? m | [link](https://lift-world.info/en/lifts/13005/datas.htm) |
 | _Gran Paradiso_ | 1-SL |  208 m | ?? min | N/A | ?? m/s | 1018 m | [link](https://lift-world.info/en/lifts/3801/datas.htm) |
+| _Tschucky_ | 1-SL |  ?? m | ?? min | N/A | ?? m/s | ?? m | [link](https://lift-world.info/en/lifts/17956/datas.htm) |
 | _Larciunei_ | 1-SL |  ?? m | ?? min | N/A | ?? m/s | ?? m | [link](https://lift-world.info/en/lifts/3800/datas.htm) |
 | _Malga Cir_ | 2-SL |  ?? m | ?? min | N/A | ?? m/s | ?? m | [link](https://lift-world.info/en/lifts/18058/datas.htm) |
 | _Puntea_ | 1-SL |  ?? m | ?? min | N/A | ?? m/s | ?? m | [link](https://lift-world.info/en/lifts/3807/datas.htm) |
@@ -91,5 +91,5 @@ See [vpm](/vpm) for blurb on how to read the table.  Asterisked entries are esti
 | _Nives_ | 1-SL |  ?? m | ?? min | N/A | ?? m/s | ?? m | [link](https://lift-world.info/en/lifts/3799/datas.htm) |
 | _Juac_ | 1-SL |  ?? m | ?? min | N/A | ?? m/s | ?? m | [link](https://lift-world.info/en/lifts/17955/datas.htm) |
 | _Panorama_ | 1-SL |  ?? m | ?? min | N/A | ?? m/s | ?? m | [link](https://lift-world.info/en/lifts/3798/datas.htm) |
-| _Tschucky_ | 1-SL |  ?? m | ?? min | N/A | ?? m/s | ?? m | [link](https://lift-world.info/en/lifts/17956/datas.htm) |
+| _Comici 1_ | 1-SL |  ?? m | ?? min | N/A | ?? m/s | ?? m | [link](https://lift-world.info/en/lifts/17895/datas.htm) |
 | _Catores_ | 1-SL |  170 m | ?? min | N/A | ?? m/s | 450 m | [link](https://lift-world.info/en/lifts/17957/datas.htm) |

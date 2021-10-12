@@ -1,17 +1,19 @@
 ## Lift data for places matching "Grimentz"
-Collected on March 2020
+Collected on October 2021
 
 See [vpm](/vpm) for blurb on how to read the table.  Asterisked entries are estimated from line speed, if more than 15% different to the database ride time.
 
 | Lift | Type |  VPM (m/min) |  Vertical Rise |  Time (min) |  Line Speed (m/sec) |  Line length (m) | Link |
 | -- | -- | -- | -- | -- | -- | -- | -- |
-| Zinal - Sorebois [*] | 74-AT |   246.7 |    778 |    3.15 |    10.0 |   1,892 | [link](https://lift-world.info/en/lifts/666/datas.htm) |
+| Zinal - Sorebois [*] | 74-AT |   221.2 |    775 |    3.50 |     9.0 |   1,892 | [link](https://lift-world.info/en/lifts/666/datas.htm) |
 | Grimentz - Sorebois [*] | 125-AT |   185.9 |  1,095 |    5.89 |    10.0 |   3,534 | [link](https://lift-world.info/en/lifts/17158/datas.htm) |
 | Grimentz - Sorebois | 125-AT |   155.3 |  1,095 |    7.05 |    10.0 |   3,534 | [link](https://lift-world.info/en/lifts/17158/datas.htm) |
+| Zinal - Sorebois | 74-AT |   155.0 |    775 |    5.00 |     9.0 |   1,892 | [link](https://lift-world.info/en/lifts/666/datas.htm) |
+| Zinal - Sorebois - Espace Weisshorn [*] | 10-MGD |   134.9 |  1,024 |    7.59 |     6.0 |   2,733 | [link](https://lift-world.info/en/lifts/20488/datas.htm) |
 | Chiesso | 1-SL |   126.0 |    315 |    2.50 |   ? |     930 | [link](https://lift-world.info/en/lifts/701/datas.htm) |
 | Grimentz - Bendolla [*] | 12-MGD |   114.4 |    530 |    4.63 |     5.0 |   1,390 | [link](https://lift-world.info/en/lifts/703/datas.htm) |
-| Zinal - Sorebois | 74-AT |   111.1 |    778 |    7.00 |    10.0 |   1,892 | [link](https://lift-world.info/en/lifts/666/datas.htm) |
 | Grands Plans | 4-CLD |   109.0 |    327 |    3.00 |     5.0 |   1,018 | [link](https://lift-world.info/en/lifts/645/datas.htm) |
+| Zinal - Sorebois - Espace Weisshorn | 10-MGD |   102.4 |  1,024 |   10.00 |     6.0 |   2,733 | [link](https://lift-world.info/en/lifts/20488/datas.htm) |
 | Bendolla - Col du Pouce [*] | 6-CLD/B |   100.5 |    607 |    6.04 |     6.0 |   2,173 | [link](https://lift-world.info/en/lifts/19050/datas.htm) |
 | Grands Plans [*] | 4-CLD |    96.4 |    327 |    3.39 |     5.0 |   1,018 | [link](https://lift-world.info/en/lifts/645/datas.htm) |
 | Grimentz - Bendolla | 12-MGD |    93.5 |    530 |    5.67 |     5.0 |   1,390 | [link](https://lift-world.info/en/lifts/703/datas.htm) |
