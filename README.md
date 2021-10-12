@@ -13,7 +13,7 @@ but it's not explicitly there, so these pages present the computation for some r
 Runs are manual, to avoid spamming seilbahntechnik.net, so post a [github](https://github.com/awf/vpm) issue if you want a new one done, or better still, run the code.
 
 * North America
-  - [Whistler](data/Whistler_Blackcomb)
+  - [Whistler](data/Whistler)
   - [Crystal Mountain](data/Crystal_Mountain)
 * Italy
   - [Val Gardena](data/Val_Gardena)
