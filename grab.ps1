@@ -5,6 +5,7 @@ if (!$area) {
 }
 write-host "Loading data for [$area]"
 
+$ignore = '*'
 $fields = @{
   "Height of valley station" = 'hbot';
   "Height of middle station(s)" = 'hmid';
@@ -17,38 +18,38 @@ $fields = @{
   "Number of pillars" = 'pillars';
   "Year of closing down" = 'closed';
   "Track width" = 'trkwidth';
-  "Driving station" = '';
-  "Tension station" = '';
-  "Tension type" = '';
-  "Tension way" = '';
-  "Rope manufacturer" = '';
-  "Length of rope" = '';
-  "Total weight of rope" = '';
-  "Rope diameter" = '';
-  "Electrical engineering" = '';
-  "Drive power (Start)" = '';
-  "Drive power (Operation)" = '';
-  "Brake power" = '';
-  "Grip type" = '';
-  "Cab manufacturer" = '';
-  "Cab model" = '';
+  "Driving station" = $ignore;
+  "Tension station" = $ignore;
+  "Tension type" = $ignore;
+  "Tension way" = $ignore;
+  "Rope manufacturer" = $ignore;
+  "Length of rope" = $ignore;
+  "Total weight of rope" = $ignore;
+  "Rope diameter" = $ignore;
+  "Electrical engineering" = $ignore;
+  "Drive power (Start)" = $ignore;
+  "Drive power (Operation)" = $ignore;
+  "Brake power" = $ignore;
+  "Grip type" = $ignore;
+  "Cab manufacturer" = $ignore;
+  "Cab model" = $ignore;
   "Seat cover" = 'covered';
   "Seat heater" = 'heated';
   "Number of cabs" = 'cabins';
-  "Persons per cab" = '';
-  "Cab distance..." = '';
-  "Cab interval..." = '';
-  "Maximum capacity" = '';
+  "Persons per cab" = $ignore;
+  "Cab distance..." = $ignore;
+  "Cab interval..." = $ignore;
+  "Maximum capacity" = $ignore;
   "Travel time" = 'time';
   "Driving speed line" = 'speed';
-  "Transport uphill" = '';
-  "Transport downhill" = '';
-  "Drive direction" = '';
-  "Garage type" = '';
-  "Garage place" = '';
-  "Situation of entrance" = '';
-  "Situation of exit" = '';
-  "Construction period" = '';
+  "Transport uphill" = $ignore;
+  "Transport downhill" = $ignore;
+  "Drive direction" = $ignore;
+  "Garage type" = $ignore;
+  "Garage place" = $ignore;
+  "Situation of entrance" = $ignore;
+  "Situation of exit" = $ignore;
+  "Construction period" = $ignore;
 }
 
 # https://lift-world.info/en/lifts/searchresult.htm?sprache=en&suchoption=erweitert&eOrt=whistler
@@ -112,11 +113,17 @@ $lifts | ForEach-Object {
     $value = strip $_.NextSibling.NextSibling.InnerText
     $field = $fields[$fieldtext]
     if ($field) {
-      # write-host "[$field] = [$value]"
-      $out.$field = $value
+      if ($field -ne $ignore) {
+        # write-host "[$field] = [$value]"
+        $out.$field = $value
+      } else {
+        if ($value -notmatch '^\?\?') {
+          write-host "Ignored field [$fieldtext] with nonempty value = [$value]"
+        }
+      }
     } else {
       if ($value -notmatch '^\?\?') {
-        write-host "Unknown field [$fieldtext] = [$value]"
+        write-host "Unknown field [$fieldtext] with nonempty value = [$value]"
       }
     }
 
@@ -126,7 +133,7 @@ $lifts | ForEach-Object {
     }
   }
   
-  write-host "$($out.name) $($out.type) $($out.time) $($out.vert) $($out.speed)`n"
+  write-host "$($out.name) $($out.type) $($out.time) $($out.vert) $($out.speed)"
   # And emit to the stream
   $out
 }
