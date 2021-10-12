@@ -1,10 +1,17 @@
-param($area)
+param($area, $resorts = @())
 
 if (!$area) {
   $area = '*menuires*'
 }
 
-$raw = ./grab $area
+if (!$resorts) {
+  $raw = ./grab $area
+} else {
+  $raw = @()
+  foreach ($resort in $resorts) {
+    $raw += ./grab $resort
+  }
+}
 
 if (!$raw.count) {
   write-warning "No lifts found"

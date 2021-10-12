@@ -15,6 +15,10 @@ Runs are manual, to avoid spamming seilbahntechnik.net, so post a [github](https
 * North America
   - [Whistler](data/Whistler)
   - [Crystal Mountain](data/Crystal_Mountain)
+* France
+  - [Espace Killy](data/Espace_Killy)
+    - Just [Tignes](data/Tignes)
+  - [Portes du Soleil](data/Portes_du_Soleil)
 * Italy
   - [Val Gardena](data/Val_Gardena)
 * Switzerland
@@ -35,6 +39,7 @@ PS> git add data/Whistler.*
 PS> git commit -m 'DATA: Whistler'
 PS> git push # update gh pages
 ```
+For areas that don't grep well (e.g. the "Area" field is inconsistently filled in), then you can supply a list of resorts using the `-resorts` option.
 
 ## Types
 

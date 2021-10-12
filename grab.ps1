@@ -80,7 +80,7 @@ if (!$lifts) {
   throw "no lifts"
 }
 
-write-host "Got $($lifts.count) lifts"
+write-host "grab [$area]: Got $($lifts.count) lifts"
 
 function strip([string]$s) {
   $s -replace "[`n`r`t]",' ' -replace '&nbsp;',' ' -replace "[`n`r`t ]+$",'' -replace "^[`n`r`t ]+",''
