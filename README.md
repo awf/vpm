@@ -41,8 +41,9 @@ Runs are manual, to avoid spamming [seilbahntechnik.net](http://seilbahntechnik.
 ```
 PS> . ./setup # installs HtmlAglityPack
 PS> ./make-vpm 'Whistler' # Generates data/Whistler.{md,csv}
-PS> git add data/Whistler.*
-PS> git commit -m 'DATA: Whistler'
+
+PS> ./make-vpm 'Whistler' -checkin # Checks in the new data
+
 PS> git push # update gh pages
 ```
 For areas that don't grep well (e.g. the "Area" field is inconsistently filled in), then you can supply a list of resorts using the `-resorts` option.

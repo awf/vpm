@@ -87,7 +87,7 @@ $date = get-date -format y
 # create dokuwiki table
 $table = $lifts | ForEach-Object {
   "## Lift data for places matching `"$area`""
-  "Collected on $date"
+  "Collected $date"
   Get-Content header.md
 } {
   $link = "[link]($($_.url))"
