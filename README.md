@@ -21,9 +21,9 @@ The data needed to compute VPM comes from the most excellent [seilbahntechnik.ne
 Runs are manual, to avoid spamming [seilbahntechnik.net](http://seilbahntechnik.net), so post a [github issue](https://github.com/awf/vpm/issues/new?assignees=awf&labels=&template=resort-request.md&title=Add+resort%3A+RESORT+NAME) if you want to propose a new resort.
 
 * North America
-  - [Whistler](data/Whistler)
-  - [Crystal Mountain](data/Crystal_Mountain)
-  - [Crested Butte](data/Crested_Butte) ([Cross reference](https://travelcrestedbutte.com/hurry-fastest-crested-butte-ski-lifts/))
+  - [Whistler](data/Whistler.html)
+  - [Crystal Mountain](data/Crystal_Mountain.html)
+  - [Crested Butte](data/Crested_Butte.html) ([Cross reference](https://travelcrestedbutte.com/hurry-fastest-crested-butte-ski-lifts/))
 * France
   - [Espace Killy](data/Espace_Killy)
     - Just [Tignes](data/Tignes)

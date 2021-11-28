@@ -1,0 +1,922 @@
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+    <title>VPM for $area</title>
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.0/jquery.min.js"></script>
+    <script type="text/javascript">
+        $(document).ready(function() {
+            $('.detail,#btnHide').hide();
+            $('#btnShow').click(function() {
+                $('.detail,#btnHide').show();
+                $('#btnShow').hide();
+            });
+            $('#btnHide').click(function() {
+                $('.detail,#btnHide').hide();
+                $('#btnShow').show();
+            });
+        });
+    </script>
+</head>
+<body>
+<h2> Lift data for places matching "Val Gardena" </h2>
+<p> Collected November 2021 </p>
+See <a href=/vpm>vpm</a> for blurb on how to read the table.  
+
+Asterisked entries are estimated from line speed, 
+if more than 15% different to the database ride time.
+<br/>
+
+<input hidden id="btnHide" type="button" value="Hide Detail"/>
+<input id="btnShow" type="button" value="Show Detail"/>
+
+<table>
+<tr>
+<th>Lift</td>
+<th>Type</td>
+<th><span>VPM<br/>(m/min)</span></td>
+<th><span>Vertical Rise<br/>(metres)</span></td>
+<th><span>Time<br/>(min)</span></td>
+<th class="detail"><span>Line Speed<br/>(m/sec)</span></td>
+<th class="detail"><span>Line length<br/>(m)</span></td>
+<th class="detail">Link</td>
+</tr>
+<tr>
+<td>Rasciesa [*]</td>
+<td>90-FUC</td>
+<td> 204.5</td>
+<td>  819</td>
+<td>  4.00</td>
+<td class="detail">  10.0</td>
+<td class="detail"> 2,402</td>
+<td class="detail"><a href=https://lift-world.info/en/lifts/14903/datas.htm>link</a></td>
+</tr>
+<tr>
+<td>Rasciesa</td>
+<td>90-FUC</td>
+<td> 181.9</td>
+<td>  819</td>
+<td>  4.50</td>
+<td class="detail">  10.0</td>
+<td class="detail"> 2,402</td>
+<td class="detail"><a href=https://lift-world.info/en/lifts/14903/datas.htm>link</a></td>
+</tr>
+<tr>
+<td>Piz Sella</td>
+<td>103-AT</td>
+<td> 160.1</td>
+<td>  448</td>
+<td>  2.80</td>
+<td class="detail">  10.0</td>
+<td class="detail"> 1,680</td>
+<td class="detail"><a href=https://lift-world.info/en/lifts/2778/datas.htm>link</a></td>
+</tr>
+<tr>
+<td>St. Ulrich - Seiseralm [*]</td>
+<td>15-BGD</td>
+<td> 137.4</td>
+<td>  775</td>
+<td>  5.64</td>
+<td class="detail">   5.5</td>
+<td class="detail"> 1,861</td>
+<td class="detail"><a href=https://lift-world.info/en/lifts/832/datas.htm>link</a></td>
+</tr>
+<tr>
+<td>St. Ulrich - Seiseralm</td>
+<td>15-BGD</td>
+<td> 129.2</td>
+<td>  775</td>
+<td>  6.00</td>
+<td class="detail">   5.5</td>
+<td class="detail"> 1,861</td>
+<td class="detail"><a href=https://lift-world.info/en/lifts/832/datas.htm>link</a></td>
+</tr>
+<tr>
+<td>Ciampinoi</td>
+<td>12-MGD</td>
+<td> 116.1</td>
+<td>  682</td>
+<td>  5.87</td>
+<td class="detail">   5.3</td>
+<td class="detail"> 1,860</td>
+<td class="detail"><a href=https://lift-world.info/en/lifts/3720/datas.htm>link</a></td>
+</tr>
+<tr>
+<td>Dantercepies 2</td>
+<td>10-MGD</td>
+<td>  94.7</td>
+<td>  131</td>
+<td>  1.38</td>
+<td class="detail">   6.0</td>
+<td class="detail">   498</td>
+<td class="detail"><a href=https://lift-world.info/en/lifts/17111/datas.htm>link</a></td>
+</tr>
+<tr>
+<td>Sochers-Ciampinoi</td>
+<td>6-CLD/B</td>
+<td>  89.6</td>
+<td>  296</td>
+<td>  3.30</td>
+<td class="detail">   5.0</td>
+<td class="detail">   991</td>
+<td class="detail"><a href=https://lift-world.info/en/lifts/2044/datas.htm>link</a></td>
+</tr>
+<tr>
+<td>Saslong</td>
+<td>12-MGD</td>
+<td>  87.5</td>
+<td>  536</td>
+<td>  6.13</td>
+<td class="detail">   5.0</td>
+<td class="detail"> 1,839</td>
+<td class="detail"><a href=https://lift-world.info/en/lifts/3721/datas.htm>link</a></td>
+</tr>
+<tr>
+<td>Sochers</td>
+<td>4-CLD</td>
+<td>  87.3</td>
+<td>  179</td>
+<td>  2.05</td>
+<td class="detail">   5.0</td>
+<td class="detail">   628</td>
+<td class="detail"><a href=https://lift-world.info/en/lifts/11756/datas.htm>link</a></td>
+</tr>
+<tr>
+<td>Piz Seteur 2</td>
+<td>10-MGD</td>
+<td>  86.7</td>
+<td>  104</td>
+<td>  1.20</td>
+<td class="detail">   6.0</td>
+<td class="detail">   426</td>
+<td class="detail"><a href=https://lift-world.info/en/lifts/18461/datas.htm>link</a></td>
+</tr>
+<tr>
+<td>Dantercepies 1</td>
+<td>10-MGD</td>
+<td>  85.6</td>
+<td>  514</td>
+<td>  6.00</td>
+<td class="detail">   6.0</td>
+<td class="detail"> 2,161</td>
+<td class="detail"><a href=https://lift-world.info/en/lifts/17110/datas.htm>link</a></td>
+</tr>
+<tr>
+<td>Col Raiser</td>
+<td>8-MGD</td>
+<td>  83.8</td>
+<td>  545</td>
+<td>  6.50</td>
+<td class="detail">   5.1</td>
+<td class="detail"> 2,333</td>
+<td class="detail"><a href=https://lift-world.info/en/lifts/13148/datas.htm>link</a></td>
+</tr>
+<tr>
+<td>Monte Pana - Mont de Seura</td>
+<td>4-CLD/B</td>
+<td>  78.5</td>
+<td>  416</td>
+<td>  5.30</td>
+<td class="detail">   5.0</td>
+<td class="detail"> 1,592</td>
+<td class="detail"><a href=https://lift-world.info/en/lifts/8808/datas.htm>link</a></td>
+</tr>
+<tr>
+<td>Piz Seteur 1 [*]</td>
+<td>10-MGD</td>
+<td>  77.6</td>
+<td>  209</td>
+<td>  2.69</td>
+<td class="detail">   6.0</td>
+<td class="detail">   970</td>
+<td class="detail"><a href=https://lift-world.info/en/lifts/18460/datas.htm>link</a></td>
+</tr>
+<tr>
+<td>Dantercepies</td>
+<td>6-MGD</td>
+<td>  76.3</td>
+<td>  640</td>
+<td>  8.39</td>
+<td class="detail">   5.0</td>
+<td class="detail"> 2,518</td>
+<td class="detail"><a href=https://lift-world.info/en/lifts/3651/datas.htm>link</a></td>
+</tr>
+<tr>
+<td>Val Gardena Ronda Express [*]</td>
+<td>140-FUC</td>
+<td>  72.5</td>
+<td>  145</td>
+<td>  2.00</td>
+<td class="detail">  10.0</td>
+<td class="detail"> 1,200</td>
+<td class="detail"><a href=https://lift-world.info/en/lifts/4633/datas.htm>link</a></td>
+</tr>
+<tr>
+<td>Piz Seteur</td>
+<td>4-CLD</td>
+<td>  72.3</td>
+<td>  277</td>
+<td>  3.83</td>
+<td class="detail">   4.0</td>
+<td class="detail">   920</td>
+<td class="detail"><a href=https://lift-world.info/en/lifts/3741/datas.htm>link</a></td>
+</tr>
+<tr>
+<td>Col Raiser [*]</td>
+<td>8-MGD</td>
+<td>  70.9</td>
+<td>  545</td>
+<td>  7.68</td>
+<td class="detail">   5.1</td>
+<td class="detail"> 2,333</td>
+<td class="detail"><a href=https://lift-world.info/en/lifts/13148/datas.htm>link</a></td>
+</tr>
+<tr>
+<td>Col Raiser</td>
+<td>8-MGD</td>
+<td>  68.1</td>
+<td>  545</td>
+<td>  8.00</td>
+<td class="detail">   5.0</td>
+<td class="detail"> 2,334</td>
+<td class="detail"><a href=https://lift-world.info/en/lifts/2807/datas.htm>link</a></td>
+</tr>
+<tr>
+<td>Fermeda</td>
+<td>4-CLD</td>
+<td>  67.7</td>
+<td>  472</td>
+<td>  6.98</td>
+<td class="detail">   4.5</td>
+<td class="detail"> 1,884</td>
+<td class="detail"><a href=https://lift-world.info/en/lifts/3792/datas.htm>link</a></td>
+</tr>
+<tr>
+<td>Piz Seteur 1</td>
+<td>10-MGD</td>
+<td>  67.4</td>
+<td>  209</td>
+<td>  3.10</td>
+<td class="detail">   6.0</td>
+<td class="detail">   970</td>
+<td class="detail"><a href=https://lift-world.info/en/lifts/18460/datas.htm>link</a></td>
+</tr>
+<tr>
+<td>Comici 2 (Piz Sella 2)</td>
+<td>6-CLD</td>
+<td>  66.9</td>
+<td>   86</td>
+<td>  1.29</td>
+<td class="detail">   4.2</td>
+<td class="detail">   324</td>
+<td class="detail"><a href=https://lift-world.info/en/lifts/18072/datas.htm>link</a></td>
+</tr>
+<tr>
+<td>Gran Paradiso</td>
+<td>8-CLD/B</td>
+<td>  66.0</td>
+<td>  231</td>
+<td>  3.50</td>
+<td class="detail">   5.0</td>
+<td class="detail"> 1,006</td>
+<td class="detail"><a href=https://lift-world.info/en/lifts/18225/datas.htm>link</a></td>
+</tr>
+<tr>
+<td>Costabella</td>
+<td>4-CLD</td>
+<td>  59.9</td>
+<td>  178</td>
+<td>  2.98</td>
+<td class="detail">   2.5</td>
+<td class="detail">   446</td>
+<td class="detail"><a href=https://lift-world.info/en/lifts/3742/datas.htm>link</a></td>
+</tr>
+<tr>
+<td>Cir</td>
+<td>4-CLD</td>
+<td>  59.3</td>
+<td>  174</td>
+<td>  2.94</td>
+<td class="detail">   4.0</td>
+<td class="detail">   705</td>
+<td class="detail"><a href=https://lift-world.info/en/lifts/3743/datas.htm>link</a></td>
+</tr>
+<tr>
+<td>Dantercepies</td>
+<td>6-MGD</td>
+<td>  58.3</td>
+<td>  639</td>
+<td> 10.96</td>
+<td class="detail">   3.8</td>
+<td class="detail"> 2,500</td>
+<td class="detail"><a href=https://lift-world.info/en/lifts/15124/datas.htm>link</a></td>
+</tr>
+<tr>
+<td>Val Gardena Ronda Express</td>
+<td>140-FUC</td>
+<td>  58.0</td>
+<td>  145</td>
+<td>  2.50</td>
+<td class="detail">  10.0</td>
+<td class="detail"> 1,200</td>
+<td class="detail"><a href=https://lift-world.info/en/lifts/4633/datas.htm>link</a></td>
+</tr>
+<tr>
+<td>Cisles</td>
+<td>2-CLF</td>
+<td>  57.9</td>
+<td>  174</td>
+<td>  3.00</td>
+<td class="detail">   2.3</td>
+<td class="detail">   414</td>
+<td class="detail"><a href=https://lift-world.info/en/lifts/3805/datas.htm>link</a></td>
+</tr>
+<tr>
+<td>Ciampinoi</td>
+<td>2-CLF</td>
+<td>  55.7</td>
+<td>  585</td>
+<td> 10.51</td>
+<td class="detail">   2.3</td>
+<td class="detail"> 1,450</td>
+<td class="detail"><a href=https://lift-world.info/en/lifts/3789/datas.htm>link</a></td>
+</tr>
+<tr>
+<td>Ortisei-Furnes</td>
+<td>8-MGD</td>
+<td>  54.9</td>
+<td>  468</td>
+<td>  8.53</td>
+<td class="detail">   5.0</td>
+<td class="detail"> 2,558</td>
+<td class="detail"><a href=https://lift-world.info/en/lifts/289/datas.htm>link</a></td>
+</tr>
+<tr>
+<td>Sotsaslong</td>
+<td>4-CLD/B</td>
+<td>  54.1</td>
+<td>  175</td>
+<td>  3.24</td>
+<td class="detail">   5.0</td>
+<td class="detail">   971</td>
+<td class="detail"><a href=https://lift-world.info/en/lifts/11763/datas.htm>link</a></td>
+</tr>
+<tr>
+<td>Sasso Levante</td>
+<td>6-CLD</td>
+<td>  53.3</td>
+<td>  201</td>
+<td>  3.77</td>
+<td class="detail">   5.0</td>
+<td class="detail"> 1,128</td>
+<td class="detail"><a href=https://lift-world.info/en/lifts/15519/datas.htm>link</a></td>
+</tr>
+<tr>
+<td>Comici 1 (Piz Sella 1)</td>
+<td>6-CLD/B</td>
+<td>  52.6</td>
+<td>  152</td>
+<td>  2.88</td>
+<td class="detail">   5.0</td>
+<td class="detail">   864</td>
+<td class="detail"><a href=https://lift-world.info/en/lifts/125/datas.htm>link</a></td>
+</tr>
+<tr>
+<td>Città dei Sassi</td>
+<td>4-CLD/B</td>
+<td>  52.1</td>
+<td>  224</td>
+<td>  4.30</td>
+<td class="detail">   5.0</td>
+<td class="detail"> 1,264</td>
+<td class="detail"><a href=https://lift-world.info/en/lifts/2082/datas.htm>link</a></td>
+</tr>
+<tr>
+<td>Piza Pranseies</td>
+<td>2-CLF</td>
+<td>  47.9</td>
+<td>  201</td>
+<td>  4.19</td>
+<td class="detail">   2.3</td>
+<td class="detail">   579</td>
+<td class="detail"><a href=https://lift-world.info/en/lifts/3794/datas.htm>link</a></td>
+</tr>
+<tr>
+<td>Val</td>
+<td>2-CLF</td>
+<td>  46.2</td>
+<td>  206</td>
+<td>  4.47</td>
+<td class="detail">   2.8</td>
+<td class="detail">   752</td>
+<td class="detail"><a href=https://lift-world.info/en/lifts/7923/datas.htm>link</a></td>
+</tr>
+<tr>
+<td>Mont de Seura</td>
+<td>2-CLF</td>
+<td>  44.8</td>
+<td>  370</td>
+<td>  8.25</td>
+<td class="detail">   2.5</td>
+<td class="detail"> 1,238</td>
+<td class="detail"><a href=https://lift-world.info/en/lifts/3787/datas.htm>link</a></td>
+</tr>
+<tr>
+<td>Ciampinoi</td>
+<td>2-BL</td>
+<td>  43.2</td>
+<td>  586</td>
+<td> 13.57</td>
+<td class="detail">   1.8</td>
+<td class="detail"> 1,466</td>
+<td class="detail"><a href=https://lift-world.info/en/lifts/13945/datas.htm>link</a></td>
+</tr>
+<tr>
+<td>Catores</td>
+<td>2-CLF</td>
+<td>  41.7</td>
+<td>  182</td>
+<td>  4.36</td>
+<td class="detail">   2.5</td>
+<td class="detail">   654</td>
+<td class="detail"><a href=https://lift-world.info/en/lifts/3790/datas.htm>link</a></td>
+</tr>
+<tr>
+<td>Val Setus</td>
+<td>4-CLF</td>
+<td>  41.5</td>
+<td>  111</td>
+<td>  2.67</td>
+<td class="detail">   2.5</td>
+<td class="detail">   401</td>
+<td class="detail"><a href=https://lift-world.info/en/lifts/2046/datas.htm>link</a></td>
+</tr>
+<tr>
+<td>Raschötz / Rasciesa</td>
+<td>1-CLF</td>
+<td>  40.9</td>
+<td>  819</td>
+<td> 20.00</td>
+<td class="detail">   2.0</td>
+<td class="detail"> 2,412</td>
+<td class="detail"><a href=https://lift-world.info/en/lifts/3740/datas.htm>link</a></td>
+</tr>
+<tr>
+<td>Sole</td>
+<td>4-CLD</td>
+<td>  40.9</td>
+<td>   95</td>
+<td>  2.32</td>
+<td class="detail">   3.9</td>
+<td class="detail">   544</td>
+<td class="detail"><a href=https://lift-world.info/en/lifts/12405/datas.htm>link</a></td>
+</tr>
+<tr>
+<td>Sassolungo - Langkofel</td>
+<td>2-MGF</td>
+<td>  38.9</td>
+<td>  493</td>
+<td> 12.68</td>
+<td class="detail">   2.0</td>
+<td class="detail"> 1,522</td>
+<td class="detail"><a href=https://lift-world.info/en/lifts/11378/datas.htm>link</a></td>
+</tr>
+<tr>
+<td>Tramans</td>
+<td>2-CLF</td>
+<td>  35.9</td>
+<td>  210</td>
+<td>  5.86</td>
+<td class="detail">   2.8</td>
+<td class="detail">   985</td>
+<td class="detail"><a href=https://lift-world.info/en/lifts/2099/datas.htm>link</a></td>
+</tr>
+<tr>
+<td>S. Christina-Monte Pana</td>
+<td>2-CLF</td>
+<td>  34.0</td>
+<td>  239</td>
+<td>  7.01</td>
+<td class="detail">   2.0</td>
+<td class="detail">   842</td>
+<td class="detail"><a href=https://lift-world.info/en/lifts/3788/datas.htm>link</a></td>
+</tr>
+<tr>
+<td>Comici 2 [*]</td>
+<td>2-CLF</td>
+<td>  33.1</td>
+<td>   87</td>
+<td>  2.63</td>
+<td class="detail">   2.3</td>
+<td class="detail">   363</td>
+<td class="detail"><a href=https://lift-world.info/en/lifts/13004/datas.htm>link</a></td>
+</tr>
+<tr>
+<td>Fungeia</td>
+<td>3-CLF</td>
+<td>  30.1</td>
+<td>   32</td>
+<td>  1.08</td>
+<td class="detail">   2.1</td>
+<td class="detail">   136</td>
+<td class="detail"><a href=https://lift-world.info/en/lifts/3793/datas.htm>link</a></td>
+</tr>
+<tr>
+<td>Sasso Levante</td>
+<td>3-CLF</td>
+<td>  27.7</td>
+<td>  223</td>
+<td>  8.05</td>
+<td class="detail">   2.3</td>
+<td class="detail"> 1,110</td>
+<td class="detail"><a href=https://lift-world.info/en/lifts/3785/datas.htm>link</a></td>
+</tr>
+<tr>
+<td>Comici 2</td>
+<td>2-CLF</td>
+<td>  24.6</td>
+<td>   87</td>
+<td>  3.53</td>
+<td class="detail">   2.3</td>
+<td class="detail">   363</td>
+<td class="detail"><a href=https://lift-world.info/en/lifts/13004/datas.htm>link</a></td>
+</tr>
+<tr>
+<td>Parallel</td>
+<td>1-SL</td>
+<td>  20.0</td>
+<td>   70</td>
+<td>  3.50</td>
+<td class="detail">   3.0</td>
+<td class="detail">   630</td>
+<td class="detail"><a href=https://lift-world.info/en/lifts/3806/datas.htm>link</a></td>
+</tr>
+<tr>
+<td>Tieja</td>
+<td>1-SL</td>
+<td>  19.1</td>
+<td>   26</td>
+<td>  1.36</td>
+<td class="detail">   2.5</td>
+<td class="detail">   204</td>
+<td class="detail"><a href=https://lift-world.info/en/lifts/14756/datas.htm>link</a></td>
+</tr>
+<tr>
+<td>Comici 2</td>
+<td>1-SL</td>
+<td>N/A</td>
+<td>?? m</td>
+<td>?? min</td>
+<td class="detail">?? m/s</td>
+<td class="detail">?? m</td>
+<td class="detail"><a href=https://lift-world.info/en/lifts/17896/datas.htm>link</a></td>
+</tr>
+<tr>
+<td>Cendevaves</td>
+<td>1-SL</td>
+<td>N/A</td>
+<td>?? m</td>
+<td>?? min</td>
+<td class="detail">?? m/s</td>
+<td class="detail">?? m</td>
+<td class="detail"><a href=https://lift-world.info/en/lifts/17954/datas.htm>link</a></td>
+</tr>
+<tr>
+<td>Risaccia 1</td>
+<td>1-SL</td>
+<td>N/A</td>
+<td>?? m</td>
+<td>?? min</td>
+<td class="detail">?? m/s</td>
+<td class="detail">?? m</td>
+<td class="detail"><a href=https://lift-world.info/en/lifts/3795/datas.htm>link</a></td>
+</tr>
+<tr>
+<td>Risaccia 2</td>
+<td>1-SL</td>
+<td>N/A</td>
+<td>?? m</td>
+<td>?? min</td>
+<td class="detail">?? m/s</td>
+<td class="detail">?? m</td>
+<td class="detail"><a href=https://lift-world.info/en/lifts/3796/datas.htm>link</a></td>
+</tr>
+<tr>
+<td>San Giacomo</td>
+<td>2-BL</td>
+<td>N/A</td>
+<td>165 m</td>
+<td>?? min</td>
+<td class="detail">1,5 m/s</td>
+<td class="detail">?? m</td>
+<td class="detail"><a href=https://lift-world.info/en/lifts/13937/datas.htm>link</a></td>
+</tr>
+<tr>
+<td>Ronc</td>
+<td>1-SL</td>
+<td>N/A</td>
+<td>?? m</td>
+<td>?? min</td>
+<td class="detail">?? m/s</td>
+<td class="detail">?? m</td>
+<td class="detail"><a href=https://lift-world.info/en/lifts/17961/datas.htm>link</a></td>
+</tr>
+<tr>
+<td>Senoner / Plan de Gralba</td>
+<td>1-SL</td>
+<td>N/A</td>
+<td>?? m</td>
+<td>?? min</td>
+<td class="detail">?? m/s</td>
+<td class="detail">?? m</td>
+<td class="detail"><a href=https://lift-world.info/en/lifts/17901/datas.htm>link</a></td>
+</tr>
+<tr>
+<td>Senoner / Plan de Gralba</td>
+<td>1-SL</td>
+<td>N/A</td>
+<td>?? m</td>
+<td>?? min</td>
+<td class="detail">?? m/s</td>
+<td class="detail">?? m</td>
+<td class="detail"><a href=https://lift-world.info/en/lifts/3797/datas.htm>link</a></td>
+</tr>
+<tr>
+<td>Sole</td>
+<td>3-CLF</td>
+<td>N/A</td>
+<td>?? m</td>
+<td>?? min</td>
+<td class="detail">?? m/s</td>
+<td class="detail">541 m</td>
+<td class="detail"><a href=https://lift-world.info/en/lifts/11257/datas.htm>link</a></td>
+</tr>
+<tr>
+<td>Palmer</td>
+<td>1-SL</td>
+<td>N/A</td>
+<td>46 m</td>
+<td>?? min</td>
+<td class="detail">?? m/s</td>
+<td class="detail">?? m</td>
+<td class="detail"><a href=https://lift-world.info/en/lifts/3809/datas.htm>link</a></td>
+</tr>
+<tr>
+<td>Terza Punta</td>
+<td>1-SL</td>
+<td>N/A</td>
+<td>?? m</td>
+<td>?? min</td>
+<td class="detail">?? m/s</td>
+<td class="detail">?? m</td>
+<td class="detail"><a href=https://lift-world.info/en/lifts/17902/datas.htm>link</a></td>
+</tr>
+<tr>
+<td>Furnes-Seceda</td>
+<td>64-AT</td>
+<td>N/A</td>
+<td>732 m</td>
+<td>?? min</td>
+<td class="detail">?? m/s</td>
+<td class="detail">2045,46 m</td>
+<td class="detail"><a href=https://lift-world.info/en/lifts/3738/datas.htm>link</a></td>
+</tr>
+<tr>
+<td>Furdenan</td>
+<td>1-SL</td>
+<td>N/A</td>
+<td>?? m</td>
+<td>?? min</td>
+<td class="detail">?? m/s</td>
+<td class="detail">?? m</td>
+<td class="detail"><a href=https://lift-world.info/en/lifts/17960/datas.htm>link</a></td>
+</tr>
+<tr>
+<td>Fermedahütte - Seceda</td>
+<td>1-CLF</td>
+<td>N/A</td>
+<td>410 m</td>
+<td>?? min</td>
+<td class="detail">?? m/s</td>
+<td class="detail">1414 m</td>
+<td class="detail"><a href=https://lift-world.info/en/lifts/17959/datas.htm>link</a></td>
+</tr>
+<tr>
+<td>Cuca</td>
+<td>1-SL</td>
+<td>N/A</td>
+<td>?? m</td>
+<td>?? min</td>
+<td class="detail">?? m/s</td>
+<td class="detail">?? m</td>
+<td class="detail"><a href=https://lift-world.info/en/lifts/17958/datas.htm>link</a></td>
+</tr>
+<tr>
+<td>Pudra</td>
+<td>1-SL</td>
+<td>N/A</td>
+<td>?? m</td>
+<td>?? min</td>
+<td class="detail">?? m/s</td>
+<td class="detail">?? m</td>
+<td class="detail"><a href=https://lift-world.info/en/lifts/17900/datas.htm>link</a></td>
+</tr>
+<tr>
+<td>Col Raiser</td>
+<td>2-BL</td>
+<td>N/A</td>
+<td>?? m</td>
+<td>?? min</td>
+<td class="detail">?? m/s</td>
+<td class="detail">?? m</td>
+<td class="detail"><a href=https://lift-world.info/en/lifts/13936/datas.htm>link</a></td>
+</tr>
+<tr>
+<td>Piz Sella 1</td>
+<td>3-CLF</td>
+<td>N/A</td>
+<td>139 m</td>
+<td>?? min</td>
+<td class="detail">?? m/s</td>
+<td class="detail">863 m</td>
+<td class="detail"><a href=https://lift-world.info/en/lifts/17015/datas.htm>link</a></td>
+</tr>
+<tr>
+<td>Passo Sella</td>
+<td>1-SL</td>
+<td>N/A</td>
+<td>?? m</td>
+<td>?? min</td>
+<td class="detail">?? m/s</td>
+<td class="detail">?? m</td>
+<td class="detail"><a href=https://lift-world.info/en/lifts/13311/datas.htm>link</a></td>
+</tr>
+<tr>
+<td>Dantercepies</td>
+<td>2-BL</td>
+<td>N/A</td>
+<td>?? m</td>
+<td>?? min</td>
+<td class="detail">?? m/s</td>
+<td class="detail">?? m</td>
+<td class="detail"><a href=https://lift-world.info/en/lifts/13946/datas.htm>link</a></td>
+</tr>
+<tr>
+<td>Campo Freina</td>
+<td>1-SL</td>
+<td>N/A</td>
+<td>?? m</td>
+<td>?? min</td>
+<td class="detail">?? m/s</td>
+<td class="detail">?? m</td>
+<td class="detail"><a href=https://lift-world.info/en/lifts/13328/datas.htm>link</a></td>
+</tr>
+<tr>
+<td>Campo Freina</td>
+<td>1-SL</td>
+<td>N/A</td>
+<td>?? m</td>
+<td>?? min</td>
+<td class="detail">?? m/s</td>
+<td class="detail">?? m</td>
+<td class="detail"><a href=https://lift-world.info/en/lifts/17899/datas.htm>link</a></td>
+</tr>
+<tr>
+<td>Cadepunt</td>
+<td>1-SL</td>
+<td>N/A</td>
+<td>?? m</td>
+<td>?? min</td>
+<td class="detail">?? m/s</td>
+<td class="detail">?? m</td>
+<td class="detail"><a href=https://lift-world.info/en/lifts/17898/datas.htm>link</a></td>
+</tr>
+<tr>
+<td>Biancaneve</td>
+<td>1-SL</td>
+<td>N/A</td>
+<td>?? m</td>
+<td>?? min</td>
+<td class="detail">?? m/s</td>
+<td class="detail">?? m</td>
+<td class="detail"><a href=https://lift-world.info/en/lifts/17897/datas.htm>link</a></td>
+</tr>
+<tr>
+<td>Dolomiti</td>
+<td>1-SL</td>
+<td>N/A</td>
+<td>?? m</td>
+<td>?? min</td>
+<td class="detail">?? m/s</td>
+<td class="detail">?? m</td>
+<td class="detail"><a href=https://lift-world.info/en/lifts/13005/datas.htm>link</a></td>
+</tr>
+<tr>
+<td>Gran Paradiso</td>
+<td>1-SL</td>
+<td>N/A</td>
+<td>208 m</td>
+<td>?? min</td>
+<td class="detail">?? m/s</td>
+<td class="detail">1018 m</td>
+<td class="detail"><a href=https://lift-world.info/en/lifts/3801/datas.htm>link</a></td>
+</tr>
+<tr>
+<td>Tschucky</td>
+<td>1-SL</td>
+<td>N/A</td>
+<td>?? m</td>
+<td>?? min</td>
+<td class="detail">?? m/s</td>
+<td class="detail">?? m</td>
+<td class="detail"><a href=https://lift-world.info/en/lifts/17956/datas.htm>link</a></td>
+</tr>
+<tr>
+<td>Larciunei</td>
+<td>1-SL</td>
+<td>N/A</td>
+<td>?? m</td>
+<td>?? min</td>
+<td class="detail">?? m/s</td>
+<td class="detail">?? m</td>
+<td class="detail"><a href=https://lift-world.info/en/lifts/3800/datas.htm>link</a></td>
+</tr>
+<tr>
+<td>Malga Cir</td>
+<td>2-SL</td>
+<td>N/A</td>
+<td>?? m</td>
+<td>?? min</td>
+<td class="detail">?? m/s</td>
+<td class="detail">?? m</td>
+<td class="detail"><a href=https://lift-world.info/en/lifts/18058/datas.htm>link</a></td>
+</tr>
+<tr>
+<td>Puntea</td>
+<td>1-SL</td>
+<td>N/A</td>
+<td>?? m</td>
+<td>?? min</td>
+<td class="detail">?? m/s</td>
+<td class="detail">?? m</td>
+<td class="detail"><a href=https://lift-world.info/en/lifts/3807/datas.htm>link</a></td>
+</tr>
+<tr>
+<td>Monte Carlo</td>
+<td>1-SL</td>
+<td>N/A</td>
+<td>?? m</td>
+<td>?? min</td>
+<td class="detail">?? m/s</td>
+<td class="detail">?? m</td>
+<td class="detail"><a href=https://lift-world.info/en/lifts/18059/datas.htm>link</a></td>
+</tr>
+<tr>
+<td>Nives</td>
+<td>1-SL</td>
+<td>N/A</td>
+<td>?? m</td>
+<td>?? min</td>
+<td class="detail">?? m/s</td>
+<td class="detail">?? m</td>
+<td class="detail"><a href=https://lift-world.info/en/lifts/3799/datas.htm>link</a></td>
+</tr>
+<tr>
+<td>Juac</td>
+<td>1-SL</td>
+<td>N/A</td>
+<td>?? m</td>
+<td>?? min</td>
+<td class="detail">?? m/s</td>
+<td class="detail">?? m</td>
+<td class="detail"><a href=https://lift-world.info/en/lifts/17955/datas.htm>link</a></td>
+</tr>
+<tr>
+<td>Panorama</td>
+<td>1-SL</td>
+<td>N/A</td>
+<td>?? m</td>
+<td>?? min</td>
+<td class="detail">?? m/s</td>
+<td class="detail">?? m</td>
+<td class="detail"><a href=https://lift-world.info/en/lifts/3798/datas.htm>link</a></td>
+</tr>
+<tr>
+<td>Comici 1</td>
+<td>1-SL</td>
+<td>N/A</td>
+<td>?? m</td>
+<td>?? min</td>
+<td class="detail">?? m/s</td>
+<td class="detail">?? m</td>
+<td class="detail"><a href=https://lift-world.info/en/lifts/17895/datas.htm>link</a></td>
+</tr>
+<tr>
+<td>Catores</td>
+<td>1-SL</td>
+<td>N/A</td>
+<td>170 m</td>
+<td>?? min</td>
+<td class="detail">?? m/s</td>
+<td class="detail">450 m</td>
+<td class="detail"><a href=https://lift-world.info/en/lifts/17957/datas.htm>link</a></td>
+</tr>
+</table>

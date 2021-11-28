@@ -31,7 +31,7 @@ $lifts = $raw | ForEach-Object {
     $hbot = getnumber $_.hbot m
     $htop = getnumber $_.htop m
     $vert = $htop - $hbot
-    write-host "Empty vert, using htop-hbot [$htop-$hbot = $vert]"
+    write-host "Empty vert ($($_.vert)), using htop-hbot [$htop-$hbot = $vert]"
   }
   
   $length = getnumber $_.length m
@@ -81,16 +81,86 @@ $lifts = $raw | ForEach-Object {
   $out
 }
 
+$cols = echo name type vpm vert time speed length link
+$is_detail = @{ speed=$true; length=$true; link=$True }
+
+function tr($tag='td',$dict) { 
+  "<tr>"
+  foreach ($c in $cols) { 
+    if ($is_detail[$c]) {
+      $detail_str = ' class="detail"'
+    } else {
+      $detail_str = ''
+    }
+    "<$tag$detail_str>$($dict[$c])</td>" 
+  } 
+  "</tr>"
+}
+
+function tag($tag) {
+  "<$tag>" 
+  $args
+  "</$tag>"
+}
+
 $lifts = $lifts | Sort-Object -desc vpm
 
 $date = get-date -format y
 # create dokuwiki table
 $table = $lifts | ForEach-Object {
-  "## Lift data for places matching `"$area`""
-  "Collected $date"
-  Get-Content header.md
+@'
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+    <title>VPM for $area</title>
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.0/jquery.min.js"></script>
+    <script type="text/javascript">
+        $(document).ready(function() {
+            $('.detail,#btnHide').hide();
+            $('#btnShow').click(function() {
+                $('.detail,#btnHide').show();
+                $('#btnShow').hide();
+            });
+            $('#btnHide').click(function() {
+                $('.detail,#btnHide').hide();
+                $('#btnShow').show();
+            });
+        });
+    </script>
+</head>
+<body>
+'@
+
+  "<h2> Lift data for places matching `"$area`" </h2>"
+  "<p> Collected $date </p>"
+
+  @'
+See <a href=/vpm>vpm</a> for blurb on how to read the table.  
+
+Asterisked entries are estimated from line speed, 
+if more than 15% different to the database ride time.
+<br/>
+
+<input hidden id="btnHide" type="button" value="Hide Detail"/>
+<input id="btnShow" type="button" value="Show Detail"/>
+
+'@  
+
+  "<table>"
+
+  function hdr($title,$unit) { "<span>$title<br/>$unit</span>"}
+
+  tr th @{
+      name="Lift" 
+      type="Type" 
+      vpm= hdr "VPM" "(m/min)" 
+      vert= hdr "Vertical Rise" "(metres)"
+      time= hdr "Time" "(min)" 
+      speed= hdr "Line Speed" "(m/sec)" 
+      length= hdr "Line length" "(m)" 
+      link= "Link"
+  }
 } {
-  $link = "[link]($($_.url))"
+  $link = "<a href=$($_.url)>link</a>"
   if ($_.valid) {
     $vert = "{0,5:N0}" -f [math]::round($_.vert)
     $type = $_.type
@@ -102,10 +172,30 @@ $table = $lifts | ForEach-Object {
       $speed = "{0,6:N1}" -f [double]$_.speed
     }
     $length = "{0,6:N0}" -f [math]::round($_.length)
-    "| $($_.Name) | $type |  $vpm |  $vert |  $time |  $speed |  $length | $link |" 
+    tr td @{
+      name=$_.Name; 
+      type=$type;
+      vpm=$vpm;
+      vert=$vert;
+      time=$time;
+      speed=$speed;
+      length=$length;
+      link=$link
+    }
   } else {
-    "| _$($_.Name)_ | $($_.type) |  $($_.vert_raw) | $($_.time_raw) | N/A | $($_.speed_raw) | $($_.length_raw) | $link |" 
+    tr td @{
+      name=$_.Name; 
+      type=$_.type;
+      vpm="N/A";
+      vert=$_.vert_raw;
+      time=$_.time_raw;
+      speed=$_.speed_raw;
+      length=$_.length_raw;
+      link=$link
+    }
   }
+} {
+  "</table>"
 }
 
 if ($filename) {

@@ -1,0 +1,172 @@
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+    <title>VPM for $area</title>
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.0/jquery.min.js"></script>
+    <script type="text/javascript">
+        $(document).ready(function() {
+            $('.detail,#btnHide').hide();
+            $('#btnShow').click(function() {
+                $('.detail,#btnHide').show();
+                $('#btnShow').hide();
+            });
+            $('#btnHide').click(function() {
+                $('.detail,#btnHide').hide();
+                $('#btnShow').show();
+            });
+        });
+    </script>
+</head>
+<body>
+<h2> Lift data for places matching "Champery" </h2>
+<p> Collected November 2021 </p>
+See <a href=/vpm>vpm</a> for blurb on how to read the table.  
+
+Asterisked entries are estimated from line speed, 
+if more than 15% different to the database ride time.
+<br/>
+
+<input hidden id="btnHide" type="button" value="Hide Detail"/>
+<input id="btnShow" type="button" value="Show Detail"/>
+
+<table>
+<tr>
+<th>Lift</td>
+<th>Type</td>
+<th><span>VPM<br/>(m/min)</span></td>
+<th><span>Vertical Rise<br/>(metres)</span></td>
+<th><span>Time<br/>(min)</span></td>
+<th class="detail"><span>Line Speed<br/>(m/sec)</span></td>
+<th class="detail"><span>Line length<br/>(m)</span></td>
+<th class="detail">Link</td>
+</tr>
+<tr>
+<td>Champéry - Croix-de-Culet [*]</td>
+<td>125-AT</td>
+<td> 251.6</td>
+<td>  899</td>
+<td>  3.57</td>
+<td class="detail">  10.0</td>
+<td class="detail"> 2,144</td>
+<td class="detail"><a href=https://lift-world.info/en/lifts/93/datas.htm>link</a></td>
+</tr>
+<tr>
+<td>Champéry - Croix-de-Culet</td>
+<td>125-AT</td>
+<td> 171.2</td>
+<td>  899</td>
+<td>  5.25</td>
+<td class="detail">  10.0</td>
+<td class="detail"> 2,144</td>
+<td class="detail"><a href=https://lift-world.info/en/lifts/93/datas.htm>link</a></td>
+</tr>
+<tr>
+<td>Grand Paradis</td>
+<td>6-CLD/B</td>
+<td> 140.5</td>
+<td>  787</td>
+<td>  5.60</td>
+<td class="detail"> ?</td>
+<td class="detail"> 1,630</td>
+<td class="detail"><a href=https://lift-world.info/en/lifts/5264/datas.htm>link</a></td>
+</tr>
+<tr>
+<td>Planachaux</td>
+<td>6-CLD</td>
+<td>  92.0</td>
+<td>  253</td>
+<td>  2.75</td>
+<td class="detail"> ?</td>
+<td class="detail">   756</td>
+<td class="detail"><a href=https://lift-world.info/en/lifts/5265/datas.htm>link</a></td>
+</tr>
+<tr>
+<td>Ripaille II</td>
+<td>2-SL</td>
+<td>N/A</td>
+<td>256 m</td>
+<td>?? min</td>
+<td class="detail">?? m/s</td>
+<td class="detail">1187 m</td>
+<td class="detail"><a href=https://lift-world.info/en/lifts/10477/datas.htm>link</a></td>
+</tr>
+<tr>
+<td>Ripaille I</td>
+<td>1-SL</td>
+<td>N/A</td>
+<td>256 m</td>
+<td>?? min</td>
+<td class="detail">?? m/s</td>
+<td class="detail">1187 m</td>
+<td class="detail"><a href=https://lift-world.info/en/lifts/10476/datas.htm>link</a></td>
+</tr>
+<tr>
+<td>Planachaux-Croix de Culet</td>
+<td>3-CLF</td>
+<td>N/A</td>
+<td>176 m</td>
+<td>?? min</td>
+<td class="detail">?? m/s</td>
+<td class="detail">566 m</td>
+<td class="detail"><a href=https://lift-world.info/en/lifts/19550/datas.htm>link</a></td>
+</tr>
+<tr>
+<td>Pauvre-Conche</td>
+<td>4-CLF</td>
+<td>N/A</td>
+<td>306 m</td>
+<td>?? min</td>
+<td class="detail">?? m/s</td>
+<td class="detail">1005 m</td>
+<td class="detail"><a href=https://lift-world.info/en/lifts/9053/datas.htm>link</a></td>
+</tr>
+<tr>
+<td>Louis</td>
+<td>1-SL</td>
+<td>N/A</td>
+<td>150 m</td>
+<td>?? min</td>
+<td class="detail">?? m/s</td>
+<td class="detail">505 m</td>
+<td class="detail"><a href=https://lift-world.info/en/lifts/10475/datas.htm>link</a></td>
+</tr>
+<tr>
+<td>Léchereuse</td>
+<td>1-SL</td>
+<td>N/A</td>
+<td>190 m</td>
+<td>?? min</td>
+<td class="detail">?? m/s</td>
+<td class="detail">850 m</td>
+<td class="detail"><a href=https://lift-world.info/en/lifts/10474/datas.htm>link</a></td>
+</tr>
+<tr>
+<td>Culet - Planachaux</td>
+<td>2-CLF</td>
+<td>N/A</td>
+<td>?? m</td>
+<td>?? min</td>
+<td class="detail">?? m/s</td>
+<td class="detail">?? m</td>
+<td class="detail"><a href=https://lift-world.info/en/lifts/3994/datas.htm>link</a></td>
+</tr>
+<tr>
+<td>Chavanette</td>
+<td>4-CLF</td>
+<td>N/A</td>
+<td>331 m</td>
+<td>?? min</td>
+<td class="detail">?? m/s</td>
+<td class="detail">900 m</td>
+<td class="detail"><a href=https://lift-world.info/en/lifts/9052/datas.htm>link</a></td>
+</tr>
+<tr>
+<td>Champéry-Planachaux</td>
+<td>??-AT</td>
+<td>N/A</td>
+<td>?? m</td>
+<td>?? min</td>
+<td class="detail">?? m/s</td>
+<td class="detail">?? m</td>
+<td class="detail"><a href=https://lift-world.info/en/lifts/14693/datas.htm>link</a></td>
+</tr>
+</table>

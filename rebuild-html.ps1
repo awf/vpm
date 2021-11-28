@@ -1,4 +1,4 @@
-$places = Get-ChildItem .\data\*.md | ForEach-Object { 
+$places = Get-ChildItem .\data\*.html | ForEach-Object { 
         $file = $_
         Get-Content $file | ForEach-Object { 
             if ($_ -match 'Lift data for places matching "(.*)"') { 
@@ -15,7 +15,7 @@ write-host $places
 foreach ($place in $places) {
     $name = $place.name
     $file = $place.file
-    $csv = $file -replace '\.md$','.csv'
+    $csv = $file -replace '\.html$','.csv'
     $raw = Import-Csv $csv    
     $table = .\raw-to-vpm.ps1 $name $raw -filename $file
 }

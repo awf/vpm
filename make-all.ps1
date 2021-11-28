@@ -11,5 +11,5 @@
 .\make-vpm 'Grimentz'
 
 .\make-vpm.ps1 'Portes du Soleil' -resorts @(
-  echo Avoriaz Morzine 'Les Crosets' Champoussin Champery
+  echo 'Avoriaz' 'Morzine' 'Les Crosets' 'Champoussin' 'Champery'
 )

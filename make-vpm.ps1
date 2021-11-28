@@ -31,8 +31,8 @@ if ($fromcsv) {
 }
 
 
-$filename = "$filenamebase.md"
-write-host "Markdown filename [$filename]"
+$filename = "$filenamebase.html"
+write-host "HTML filename [$filename]"
 
 $table = ./raw-to-vpm.ps1 $area $raw -filename $filename
 

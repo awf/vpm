@@ -1,0 +1,782 @@
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+    <title>VPM for $area</title>
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.0/jquery.min.js"></script>
+    <script type="text/javascript">
+        $(document).ready(function() {
+            $('.detail,#btnHide').hide();
+            $('#btnShow').click(function() {
+                $('.detail,#btnHide').show();
+                $('#btnShow').hide();
+            });
+            $('#btnHide').click(function() {
+                $('.detail,#btnHide').hide();
+                $('#btnShow').show();
+            });
+        });
+    </script>
+</head>
+<body>
+<h2> Lift data for places matching "Tignes" </h2>
+<p> Collected November 2021 </p>
+See <a href=/vpm>vpm</a> for blurb on how to read the table.  
+
+Asterisked entries are estimated from line speed, 
+if more than 15% different to the database ride time.
+<br/>
+
+<input hidden id="btnHide" type="button" value="Hide Detail"/>
+<input id="btnShow" type="button" value="Show Detail"/>
+
+<table>
+<tr>
+<th>Lift</td>
+<th>Type</td>
+<th><span>VPM<br/>(m/min)</span></td>
+<th><span>Vertical Rise<br/>(metres)</span></td>
+<th><span>Time<br/>(min)</span></td>
+<th class="detail"><span>Line Speed<br/>(m/sec)</span></td>
+<th class="detail"><span>Line length<br/>(m)</span></td>
+<th class="detail">Link</td>
+</tr>
+<tr>
+<td>Grande Motte Funiculaire [*]</td>
+<td>335-FUC</td>
+<td> 192.6</td>
+<td>  932</td>
+<td>  4.84</td>
+<td class="detail">  12.0</td>
+<td class="detail"> 3,484</td>
+<td class="detail"><a href=https://lift-world.info/en/lifts/2649/datas.htm>link</a></td>
+</tr>
+<tr>
+<td>Grande Motte [*]</td>
+<td>115-AT</td>
+<td> 154.4</td>
+<td>  422</td>
+<td>  2.73</td>
+<td class="detail">  10.0</td>
+<td class="detail"> 1,640</td>
+<td class="detail"><a href=https://lift-world.info/en/lifts/4173/datas.htm>link</a></td>
+</tr>
+<tr>
+<td>Grande Motte [*]</td>
+<td>100-AT</td>
+<td> 145.0</td>
+<td>  410</td>
+<td>  2.83</td>
+<td class="detail">  10.0</td>
+<td class="detail"> 1,696</td>
+<td class="detail"><a href=https://lift-world.info/en/lifts/19348/datas.htm>link</a></td>
+</tr>
+<tr>
+<td>Grande Motte Funiculaire</td>
+<td>335-FUC</td>
+<td> 143.4</td>
+<td>  932</td>
+<td>  6.50</td>
+<td class="detail">  12.0</td>
+<td class="detail"> 3,484</td>
+<td class="detail"><a href=https://lift-world.info/en/lifts/2649/datas.htm>link</a></td>
+</tr>
+<tr>
+<td>Tovière</td>
+<td>10-MGD</td>
+<td> 120.0</td>
+<td>  600</td>
+<td>  5.00</td>
+<td class="detail">   6.0</td>
+<td class="detail"> 1,782</td>
+<td class="detail"><a href=https://lift-world.info/en/lifts/16987/datas.htm>link</a></td>
+</tr>
+<tr>
+<td>Tufs [*]</td>
+<td>6-CLD</td>
+<td> 110.7</td>
+<td>  562</td>
+<td>  5.08</td>
+<td class="detail">   5.2</td>
+<td class="detail"> 1,599</td>
+<td class="detail"><a href=https://lift-world.info/en/lifts/13445/datas.htm>link</a></td>
+</tr>
+<tr>
+<td>Palafour [*]</td>
+<td>6-CLD</td>
+<td> 107.1</td>
+<td>  471</td>
+<td>  4.40</td>
+<td class="detail">   5.0</td>
+<td class="detail"> 1,319</td>
+<td class="detail"><a href=https://lift-world.info/en/lifts/11296/datas.htm>link</a></td>
+</tr>
+<tr>
+<td>Boisses</td>
+<td>8/10-MGD</td>
+<td> 105.9</td>
+<td>  410</td>
+<td>  3.87</td>
+<td class="detail">   5.0</td>
+<td class="detail"> 1,161</td>
+<td class="detail"><a href=https://lift-world.info/en/lifts/14936/datas.htm>link</a></td>
+</tr>
+<tr>
+<td>Aéroski</td>
+<td>10-MGD</td>
+<td>  98.9</td>
+<td>  603</td>
+<td>  6.10</td>
+<td class="detail">   5.0</td>
+<td class="detail"> 1,816</td>
+<td class="detail"><a href=https://lift-world.info/en/lifts/1440/datas.htm>link</a></td>
+</tr>
+<tr>
+<td>Chaudannes</td>
+<td>6-CLD</td>
+<td>  97.0</td>
+<td>  388</td>
+<td>  4.00</td>
+<td class="detail">   5.0</td>
+<td class="detail"> 1,191</td>
+<td class="detail"><a href=https://lift-world.info/en/lifts/219/datas.htm>link</a></td>
+</tr>
+<tr>
+<td>Palafour</td>
+<td>6-CLD</td>
+<td>  94.2</td>
+<td>  471</td>
+<td>  5.00</td>
+<td class="detail">   5.0</td>
+<td class="detail"> 1,319</td>
+<td class="detail"><a href=https://lift-world.info/en/lifts/11296/datas.htm>link</a></td>
+</tr>
+<tr>
+<td>Tufs</td>
+<td>6-CLD</td>
+<td>  93.7</td>
+<td>  562</td>
+<td>  6.00</td>
+<td class="detail">   5.2</td>
+<td class="detail"> 1,599</td>
+<td class="detail"><a href=https://lift-world.info/en/lifts/13445/datas.htm>link</a></td>
+</tr>
+<tr>
+<td>Tichots [*]</td>
+<td>6-CLD</td>
+<td>  92.5</td>
+<td>  361</td>
+<td>  3.90</td>
+<td class="detail">   5.0</td>
+<td class="detail"> 1,171</td>
+<td class="detail"><a href=https://lift-world.info/en/lifts/8919/datas.htm>link</a></td>
+</tr>
+<tr>
+<td>Paquis</td>
+<td>6-CLD</td>
+<td>  88.4</td>
+<td>  442</td>
+<td>  5.00</td>
+<td class="detail">   5.0</td>
+<td class="detail"> 1,610</td>
+<td class="detail"><a href=https://lift-world.info/en/lifts/220/datas.htm>link</a></td>
+</tr>
+<tr>
+<td>Les Lanches [*]</td>
+<td>4-CLD/B</td>
+<td>  87.5</td>
+<td>  745</td>
+<td>  8.52</td>
+<td class="detail">   5.0</td>
+<td class="detail"> 2,555</td>
+<td class="detail"><a href=https://lift-world.info/en/lifts/4125/datas.htm>link</a></td>
+</tr>
+<tr>
+<td>Grande Motte</td>
+<td>115-AT</td>
+<td>  84.4</td>
+<td>  422</td>
+<td>  5.00</td>
+<td class="detail">  10.0</td>
+<td class="detail"> 1,640</td>
+<td class="detail"><a href=https://lift-world.info/en/lifts/4173/datas.htm>link</a></td>
+</tr>
+<tr>
+<td>Tichots</td>
+<td>6-CLD</td>
+<td>  84.0</td>
+<td>  361</td>
+<td>  4.30</td>
+<td class="detail">   5.0</td>
+<td class="detail"> 1,171</td>
+<td class="detail"><a href=https://lift-world.info/en/lifts/8919/datas.htm>link</a></td>
+</tr>
+<tr>
+<td>Brévières</td>
+<td>8-MGD</td>
+<td>  83.4</td>
+<td>  209</td>
+<td>  2.51</td>
+<td class="detail">   6.0</td>
+<td class="detail">   902</td>
+<td class="detail"><a href=https://lift-world.info/en/lifts/19524/datas.htm>link</a></td>
+</tr>
+<tr>
+<td>Paquis [*]</td>
+<td>6-CLD</td>
+<td>  82.4</td>
+<td>  442</td>
+<td>  5.37</td>
+<td class="detail">   5.0</td>
+<td class="detail"> 1,610</td>
+<td class="detail"><a href=https://lift-world.info/en/lifts/220/datas.htm>link</a></td>
+</tr>
+<tr>
+<td>Grande Motte</td>
+<td>100-AT</td>
+<td>  82.0</td>
+<td>  410</td>
+<td>  5.00</td>
+<td class="detail">  10.0</td>
+<td class="detail"> 1,696</td>
+<td class="detail"><a href=https://lift-world.info/en/lifts/19348/datas.htm>link</a></td>
+</tr>
+<tr>
+<td>Fresse</td>
+<td>6-CLD</td>
+<td>  77.9</td>
+<td>  480</td>
+<td>  6.16</td>
+<td class="detail">   5.0</td>
+<td class="detail"> 1,849</td>
+<td class="detail"><a href=https://lift-world.info/en/lifts/218/datas.htm>link</a></td>
+</tr>
+<tr>
+<td>Sache</td>
+<td>6-MGD</td>
+<td>  76.1</td>
+<td>  622</td>
+<td>  8.17</td>
+<td class="detail">   4.0</td>
+<td class="detail"> 1,986</td>
+<td class="detail"><a href=https://lift-world.info/en/lifts/4130/datas.htm>link</a></td>
+</tr>
+<tr>
+<td>Grattalu</td>
+<td>6-CLD</td>
+<td>  71.3</td>
+<td>  321</td>
+<td>  4.50</td>
+<td class="detail">   5.2</td>
+<td class="detail"> 1,422</td>
+<td class="detail"><a href=https://lift-world.info/en/lifts/5352/datas.htm>link</a></td>
+</tr>
+<tr>
+<td>Les Lanches</td>
+<td>4-CLD/B</td>
+<td>  71.0</td>
+<td>  745</td>
+<td> 10.50</td>
+<td class="detail">   5.0</td>
+<td class="detail"> 2,555</td>
+<td class="detail"><a href=https://lift-world.info/en/lifts/4125/datas.htm>link</a></td>
+</tr>
+<tr>
+<td>De la Vanoise</td>
+<td>4-CLD</td>
+<td>  70.3</td>
+<td>  309</td>
+<td>  4.39</td>
+<td class="detail">   4.5</td>
+<td class="detail"> 1,186</td>
+<td class="detail"><a href=https://lift-world.info/en/lifts/4176/datas.htm>link</a></td>
+</tr>
+<tr>
+<td>Tommeuses</td>
+<td>8-CLD</td>
+<td>  70.3</td>
+<td>  457</td>
+<td>  6.50</td>
+<td class="detail">   4.4</td>
+<td class="detail"> 1,716</td>
+<td class="detail"><a href=https://lift-world.info/en/lifts/2002/datas.htm>link</a></td>
+</tr>
+<tr>
+<td>Balmes G</td>
+<td>1-SL</td>
+<td>  69.5</td>
+<td>  344</td>
+<td>  4.95</td>
+<td class="detail">   3.9</td>
+<td class="detail"> 1,164</td>
+<td class="detail"><a href=https://lift-world.info/en/lifts/8728/datas.htm>link</a></td>
+</tr>
+<tr>
+<td>Balme D</td>
+<td>1-SL</td>
+<td>  69.5</td>
+<td>  344</td>
+<td>  4.95</td>
+<td class="detail">   3.9</td>
+<td class="detail"> 1,164</td>
+<td class="detail"><a href=https://lift-world.info/en/lifts/8727/datas.htm>link</a></td>
+</tr>
+<tr>
+<td>Almes</td>
+<td>1-SL</td>
+<td>  68.6</td>
+<td>  194</td>
+<td>  2.83</td>
+<td class="detail">   3.5</td>
+<td class="detail">   594</td>
+<td class="detail"><a href=https://lift-world.info/en/lifts/8726/datas.htm>link</a></td>
+</tr>
+<tr>
+<td>Merles [*]</td>
+<td>6-CLD</td>
+<td>  65.3</td>
+<td>  286</td>
+<td>  4.38</td>
+<td class="detail">   5.0</td>
+<td class="detail"> 1,314</td>
+<td class="detail"><a href=https://lift-world.info/en/lifts/5353/datas.htm>link</a></td>
+</tr>
+<tr>
+<td>Chardonnet</td>
+<td>1-SL</td>
+<td>  62.8</td>
+<td>  290</td>
+<td>  4.61</td>
+<td class="detail">   3.5</td>
+<td class="detail">   969</td>
+<td class="detail"><a href=https://lift-world.info/en/lifts/8730/datas.htm>link</a></td>
+</tr>
+<tr>
+<td>3500 Nr. 2</td>
+<td>2-SL</td>
+<td>  58.4</td>
+<td>  241</td>
+<td>  4.13</td>
+<td class="detail">   3.5</td>
+<td class="detail">   867</td>
+<td class="detail"><a href=https://lift-world.info/en/lifts/8725/datas.htm>link</a></td>
+</tr>
+<tr>
+<td>Bollin</td>
+<td>6-CLD</td>
+<td>  58.0</td>
+<td>  107</td>
+<td>  1.84</td>
+<td class="detail">   4.6</td>
+<td class="detail">   509</td>
+<td class="detail"><a href=https://lift-world.info/en/lifts/217/datas.htm>link</a></td>
+</tr>
+<tr>
+<td>Combe Folle</td>
+<td>1-SL</td>
+<td>  54.5</td>
+<td>  238</td>
+<td>  4.37</td>
+<td class="detail">   3.5</td>
+<td class="detail">   917</td>
+<td class="detail"><a href=https://lift-world.info/en/lifts/8733/datas.htm>link</a></td>
+</tr>
+<tr>
+<td>Double Plan D</td>
+<td>2-SL</td>
+<td>  53.1</td>
+<td>  304</td>
+<td>  5.73</td>
+<td class="detail">   3.2</td>
+<td class="detail"> 1,100</td>
+<td class="detail"><a href=https://lift-world.info/en/lifts/8734/datas.htm>link</a></td>
+</tr>
+<tr>
+<td>Double Plan G</td>
+<td>2-SL</td>
+<td>  53.1</td>
+<td>  304</td>
+<td>  5.73</td>
+<td class="detail">   3.2</td>
+<td class="detail"> 1,100</td>
+<td class="detail"><a href=https://lift-world.info/en/lifts/8735/datas.htm>link</a></td>
+</tr>
+<tr>
+<td>Tufs</td>
+<td>3-CLF</td>
+<td>  51.9</td>
+<td>  560</td>
+<td> 10.80</td>
+<td class="detail">   2.5</td>
+<td class="detail"> 1,620</td>
+<td class="detail"><a href=https://lift-world.info/en/lifts/4179/datas.htm>link</a></td>
+</tr>
+<tr>
+<td>3500 Nr. 1</td>
+<td>2-SL</td>
+<td>  50.9</td>
+<td>  215</td>
+<td>  4.22</td>
+<td class="detail">   3.1</td>
+<td class="detail">   790</td>
+<td class="detail"><a href=https://lift-world.info/en/lifts/8724/datas.htm>link</a></td>
+</tr>
+<tr>
+<td>Boisses</td>
+<td>2-CLF</td>
+<td>  50.3</td>
+<td>  409</td>
+<td>  8.13</td>
+<td class="detail">   2.5</td>
+<td class="detail"> 1,220</td>
+<td class="detail"><a href=https://lift-world.info/en/lifts/4120/datas.htm>link</a></td>
+</tr>
+<tr>
+<td>Palafour 2</td>
+<td>3-CLF</td>
+<td>  49.2</td>
+<td>  474</td>
+<td>  9.64</td>
+<td class="detail">   2.3</td>
+<td class="detail"> 1,330</td>
+<td class="detail"><a href=https://lift-world.info/en/lifts/4127/datas.htm>link</a></td>
+</tr>
+<tr>
+<td>Palafour 1</td>
+<td>3-CLF</td>
+<td>  49.2</td>
+<td>  474</td>
+<td>  9.64</td>
+<td class="detail">   2.3</td>
+<td class="detail"> 1,330</td>
+<td class="detail"><a href=https://lift-world.info/en/lifts/4126/datas.htm>link</a></td>
+</tr>
+<tr>
+<td>Merles</td>
+<td>6-CLD</td>
+<td>  48.5</td>
+<td>  286</td>
+<td>  5.90</td>
+<td class="detail">   5.0</td>
+<td class="detail"> 1,314</td>
+<td class="detail"><a href=https://lift-world.info/en/lifts/5353/datas.htm>link</a></td>
+</tr>
+<tr>
+<td>Leisse</td>
+<td>4-CLF</td>
+<td>  48.3</td>
+<td>  263</td>
+<td>  5.45</td>
+<td class="detail">   2.3</td>
+<td class="detail">   794</td>
+<td class="detail"><a href=https://lift-world.info/en/lifts/4124/datas.htm>link</a></td>
+</tr>
+<tr>
+<td>Leisse [*]</td>
+<td>4-CLF</td>
+<td>  45.7</td>
+<td>  263</td>
+<td>  5.75</td>
+<td class="detail">   2.3</td>
+<td class="detail">   794</td>
+<td class="detail"><a href=https://lift-world.info/en/lifts/4124/datas.htm>link</a></td>
+</tr>
+<tr>
+<td>Champagny</td>
+<td>2-SL</td>
+<td>  45.7</td>
+<td>  196</td>
+<td>  4.29</td>
+<td class="detail">   3.1</td>
+<td class="detail">   811</td>
+<td class="detail"><a href=https://lift-world.info/en/lifts/8729/datas.htm>link</a></td>
+</tr>
+<tr>
+<td>Millonex 1</td>
+<td>1-SL</td>
+<td>  45.0</td>
+<td>   82</td>
+<td>  1.82</td>
+<td class="detail">   3.0</td>
+<td class="detail">   328</td>
+<td class="detail"><a href=https://lift-world.info/en/lifts/8737/datas.htm>link</a></td>
+</tr>
+<tr>
+<td>Col du Palet</td>
+<td>1-SL</td>
+<td>  44.2</td>
+<td>  266</td>
+<td>  6.02</td>
+<td class="detail">   4.0</td>
+<td class="detail"> 1,444</td>
+<td class="detail"><a href=https://lift-world.info/en/lifts/8732/datas.htm>link</a></td>
+</tr>
+<tr>
+<td>Aiguille Rouge</td>
+<td>4-CLF</td>
+<td>  42.4</td>
+<td>  315</td>
+<td>  7.43</td>
+<td class="detail">   2.3</td>
+<td class="detail"> 1,026</td>
+<td class="detail"><a href=https://lift-world.info/en/lifts/4182/datas.htm>link</a></td>
+</tr>
+<tr>
+<td>Tichot</td>
+<td>4-CLF</td>
+<td>  41.9</td>
+<td>  363</td>
+<td>  8.67</td>
+<td class="detail">   2.3</td>
+<td class="detail"> 1,196</td>
+<td class="detail"><a href=https://lift-world.info/en/lifts/4185/datas.htm>link</a></td>
+</tr>
+<tr>
+<td>Aiguille Percée</td>
+<td>4-CLF</td>
+<td>  41.9</td>
+<td>  302</td>
+<td>  7.21</td>
+<td class="detail">   2.5</td>
+<td class="detail"> 1,082</td>
+<td class="detail"><a href=https://lift-world.info/en/lifts/17329/datas.htm>link</a></td>
+</tr>
+<tr>
+<td>Almes</td>
+<td>4-CLF</td>
+<td>  40.2</td>
+<td>  183</td>
+<td>  4.55</td>
+<td class="detail">   2.1</td>
+<td class="detail">   573</td>
+<td class="detail"><a href=https://lift-world.info/en/lifts/19683/datas.htm>link</a></td>
+</tr>
+<tr>
+<td>Millonex 2</td>
+<td>1-SL</td>
+<td>  40.1</td>
+<td>   61</td>
+<td>  1.52</td>
+<td class="detail">   3.0</td>
+<td class="detail">   274</td>
+<td class="detail"><a href=https://lift-world.info/en/lifts/8738/datas.htm>link</a></td>
+</tr>
+<tr>
+<td>Aiguille Percee</td>
+<td>3-CLF</td>
+<td>  37.9</td>
+<td>  308</td>
+<td>  8.12</td>
+<td class="detail">   2.3</td>
+<td class="detail"> 1,121</td>
+<td class="detail"><a href=https://lift-world.info/en/lifts/4119/datas.htm>link</a></td>
+</tr>
+<tr>
+<td>Brevieres</td>
+<td>2-CLF</td>
+<td>  36.2</td>
+<td>  270</td>
+<td>  7.46</td>
+<td class="detail">   2.5</td>
+<td class="detail"> 1,119</td>
+<td class="detail"><a href=https://lift-world.info/en/lifts/4121/datas.htm>link</a></td>
+</tr>
+<tr>
+<td>Rosolin 2</td>
+<td>2-SL</td>
+<td>  35.8</td>
+<td>  168</td>
+<td>  4.69</td>
+<td class="detail">   3.2</td>
+<td class="detail">   900</td>
+<td class="detail"><a href=https://lift-world.info/en/lifts/8741/datas.htm>link</a></td>
+</tr>
+<tr>
+<td>Pitots</td>
+<td>1-SL</td>
+<td>  35.5</td>
+<td>   71</td>
+<td>  2.00</td>
+<td class="detail">   3.0</td>
+<td class="detail">   360</td>
+<td class="detail"><a href=https://lift-world.info/en/lifts/8739/datas.htm>link</a></td>
+</tr>
+<tr>
+<td>Grand Huit</td>
+<td>4-CLF</td>
+<td>  34.9</td>
+<td>  216</td>
+<td>  6.18</td>
+<td class="detail">   2.3</td>
+<td class="detail">   853</td>
+<td class="detail"><a href=https://lift-world.info/en/lifts/4122/datas.htm>link</a></td>
+</tr>
+<tr>
+<td>Brévières</td>
+<td>4-CLF</td>
+<td>  34.4</td>
+<td>  299</td>
+<td>  8.69</td>
+<td class="detail">   2.3</td>
+<td class="detail"> 1,199</td>
+<td class="detail"><a href=https://lift-world.info/en/lifts/13569/datas.htm>link</a></td>
+</tr>
+<tr>
+<td>Marais [*]</td>
+<td>3-CLF</td>
+<td>  34.0</td>
+<td>  565</td>
+<td> 16.61</td>
+<td class="detail">   2.3</td>
+<td class="detail"> 2,292</td>
+<td class="detail"><a href=https://lift-world.info/en/lifts/4177/datas.htm>link</a></td>
+</tr>
+<tr>
+<td>Marais</td>
+<td>3-CLF</td>
+<td>  33.2</td>
+<td>  565</td>
+<td> 17.00</td>
+<td class="detail">   2.3</td>
+<td class="detail"> 2,292</td>
+<td class="detail"><a href=https://lift-world.info/en/lifts/4177/datas.htm>link</a></td>
+</tr>
+<tr>
+<td>Grattalu</td>
+<td>4-CLF</td>
+<td>  32.0</td>
+<td>  274</td>
+<td>  8.57</td>
+<td class="detail">   2.3</td>
+<td class="detail"> 1,183</td>
+<td class="detail"><a href=https://lift-world.info/en/lifts/4123/datas.htm>link</a></td>
+</tr>
+<tr>
+<td>Merle Blanc</td>
+<td>3-CLF</td>
+<td>  31.6</td>
+<td>  353</td>
+<td> 11.16</td>
+<td class="detail">   2.3</td>
+<td class="detail"> 1,540</td>
+<td class="detail"><a href=https://lift-world.info/en/lifts/4168/datas.htm>link</a></td>
+</tr>
+<tr>
+<td>Rosolin 1</td>
+<td>2-SL</td>
+<td>  30.9</td>
+<td>  168</td>
+<td>  5.44</td>
+<td class="detail">   3.0</td>
+<td class="detail">   980</td>
+<td class="detail"><a href=https://lift-world.info/en/lifts/8740/datas.htm>link</a></td>
+</tr>
+<tr>
+<td>Col des Vés</td>
+<td>3-CLF</td>
+<td>  28.4</td>
+<td>  422</td>
+<td> 14.86</td>
+<td class="detail">   2.3</td>
+<td class="detail"> 2,050</td>
+<td class="detail"><a href=https://lift-world.info/en/lifts/4158/datas.htm>link</a></td>
+</tr>
+<tr>
+<td>Claret</td>
+<td>1-SL</td>
+<td>  26.6</td>
+<td>   62</td>
+<td>  2.33</td>
+<td class="detail">   2.0</td>
+<td class="detail">   280</td>
+<td class="detail"><a href=https://lift-world.info/en/lifts/8731/datas.htm>link</a></td>
+</tr>
+<tr>
+<td>Lavachet</td>
+<td>1-SL</td>
+<td>  24.2</td>
+<td>   43</td>
+<td>  1.78</td>
+<td class="detail">   2.5</td>
+<td class="detail">   267</td>
+<td class="detail"><a href=https://lift-world.info/en/lifts/8736/datas.htm>link</a></td>
+</tr>
+<tr>
+<td>Rosset</td>
+<td>4-CLF</td>
+<td>  20.9</td>
+<td>   56</td>
+<td>  2.68</td>
+<td class="detail">   2.0</td>
+<td class="detail">   322</td>
+<td class="detail"><a href=https://lift-world.info/en/lifts/4184/datas.htm>link</a></td>
+</tr>
+<tr>
+<td>Replat</td>
+<td>3-CLF</td>
+<td>  15.8</td>
+<td>  109</td>
+<td>  6.89</td>
+<td class="detail">   2.3</td>
+<td class="detail">   951</td>
+<td class="detail"><a href=https://lift-world.info/en/lifts/4178/datas.htm>link</a></td>
+</tr>
+<tr>
+<td>Panoramic</td>
+<td>3-CLF</td>
+<td>   8.1</td>
+<td>   24</td>
+<td>  2.96</td>
+<td class="detail">   1.5</td>
+<td class="detail">   266</td>
+<td class="detail"><a href=https://lift-world.info/en/lifts/4183/datas.htm>link</a></td>
+</tr>
+<tr>
+<td>Rosset</td>
+<td>4-CLF</td>
+<td>N/A</td>
+<td>65 m</td>
+<td>?? min</td>
+<td class="detail">?? m/s</td>
+<td class="detail">?? m</td>
+<td class="detail"><a href=https://lift-world.info/en/lifts/18302/datas.htm>link</a></td>
+</tr>
+<tr>
+<td>Ascenseur Tignes les Brevieres</td>
+<td>18-FUC</td>
+<td>N/A</td>
+<td>42 m</td>
+<td>?? min</td>
+<td class="detail">3 m/s</td>
+<td class="detail">?? m</td>
+<td class="detail"><a href=https://lift-world.info/en/lifts/18198/datas.htm>link</a></td>
+</tr>
+<tr>
+<td>Brévières-Boisses</td>
+<td>2-BL</td>
+<td>N/A</td>
+<td>?? m</td>
+<td>?? min</td>
+<td class="detail">?? m/s</td>
+<td class="detail">?? m</td>
+<td class="detail"><a href=https://lift-world.info/en/lifts/14000/datas.htm>link</a></td>
+</tr>
+<tr>
+<td>Grande Motte A</td>
+<td>4-MGD</td>
+<td>N/A</td>
+<td>?? m</td>
+<td>?? min</td>
+<td class="detail">?? m/s</td>
+<td class="detail">?? m</td>
+<td class="detail"><a href=https://lift-world.info/en/lifts/18137/datas.htm>link</a></td>
+</tr>
+<tr>
+<td>Grande Motte B</td>
+<td>4-MGD</td>
+<td>N/A</td>
+<td>?? m</td>
+<td>?? min</td>
+<td class="detail">?? m/s</td>
+<td class="detail">?? m</td>
+<td class="detail"><a href=https://lift-world.info/en/lifts/18138/datas.htm>link</a></td>
+</tr>
+</table>

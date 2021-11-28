@@ -1,0 +1,262 @@
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+    <title>VPM for $area</title>
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.0/jquery.min.js"></script>
+    <script type="text/javascript">
+        $(document).ready(function() {
+            $('.detail,#btnHide').hide();
+            $('#btnShow').click(function() {
+                $('.detail,#btnHide').show();
+                $('#btnShow').hide();
+            });
+            $('#btnHide').click(function() {
+                $('.detail,#btnHide').hide();
+                $('#btnShow').show();
+            });
+        });
+    </script>
+</head>
+<body>
+<h2> Lift data for places matching "Cairngorm" </h2>
+<p> Collected November 2021 </p>
+See <a href=/vpm>vpm</a> for blurb on how to read the table.  
+
+Asterisked entries are estimated from line speed, 
+if more than 15% different to the database ride time.
+<br/>
+
+<input hidden id="btnHide" type="button" value="Hide Detail"/>
+<input id="btnShow" type="button" value="Show Detail"/>
+
+<table>
+<tr>
+<th>Lift</td>
+<th>Type</td>
+<th><span>VPM<br/>(m/min)</span></td>
+<th><span>Vertical Rise<br/>(metres)</span></td>
+<th><span>Time<br/>(min)</span></td>
+<th class="detail"><span>Line Speed<br/>(m/sec)</span></td>
+<th class="detail"><span>Line length<br/>(m)</span></td>
+<th class="detail">Link</td>
+</tr>
+<tr>
+<td>CairnGorm Funicular [*]</td>
+<td>120-FUC</td>
+<td> 136.8</td>
+<td>  452</td>
+<td>  3.30</td>
+<td class="detail">  10.0</td>
+<td class="detail"> 1,982</td>
+<td class="detail"><a href=https://lift-world.info/en/lifts/1220/datas.htm>link</a></td>
+</tr>
+<tr>
+<td>CairnGorm Funicular</td>
+<td>120-FUC</td>
+<td>  56.5</td>
+<td>  452</td>
+<td>  8.00</td>
+<td class="detail">  10.0</td>
+<td class="detail"> 1,982</td>
+<td class="detail"><a href=https://lift-world.info/en/lifts/1220/datas.htm>link</a></td>
+</tr>
+<tr>
+<td>White Lady Chairlift [*]</td>
+<td>2-CLD</td>
+<td>  36.6</td>
+<td>  337</td>
+<td>  9.22</td>
+<td class="detail">   2.0</td>
+<td class="detail"> 1,106</td>
+<td class="detail"><a href=https://lift-world.info/en/lifts/277/datas.htm>link</a></td>
+</tr>
+<tr>
+<td>White Lady Chairlift</td>
+<td>2-CLD</td>
+<td>  22.5</td>
+<td>  337</td>
+<td> 15.00</td>
+<td class="detail">   2.0</td>
+<td class="detail"> 1,106</td>
+<td class="detail"><a href=https://lift-world.info/en/lifts/277/datas.htm>link</a></td>
+</tr>
+<tr>
+<td>Car Park Chairlift [*]</td>
+<td>2-CLD</td>
+<td>  19.0</td>
+<td>  110</td>
+<td>  5.78</td>
+<td class="detail">   2.0</td>
+<td class="detail">   694</td>
+<td class="detail"><a href=https://lift-world.info/en/lifts/14428/datas.htm>link</a></td>
+</tr>
+<tr>
+<td>Car Park Chairlift</td>
+<td>2-CLD</td>
+<td>   7.3</td>
+<td>  110</td>
+<td> 15.00</td>
+<td class="detail">   2.0</td>
+<td class="detail">   694</td>
+<td class="detail"><a href=https://lift-world.info/en/lifts/14428/datas.htm>link</a></td>
+</tr>
+<tr>
+<td>White Lady T-Bar Tow</td>
+<td>2-SL</td>
+<td>N/A</td>
+<td>331 m</td>
+<td>?? min</td>
+<td class="detail">?? m/s</td>
+<td class="detail">1088 m</td>
+<td class="detail"><a href=https://lift-world.info/en/lifts/14495/datas.htm>link</a></td>
+</tr>
+<tr>
+<td>Car Park Tow</td>
+<td>2-SL</td>
+<td>N/A</td>
+<td>?? m</td>
+<td>?? min</td>
+<td class="detail">?? m/s</td>
+<td class="detail">?? m</td>
+<td class="detail"><a href=https://lift-world.info/en/lifts/14485/datas.htm>link</a></td>
+</tr>
+<tr>
+<td>Coire Cas Tow</td>
+<td>2-SL</td>
+<td>N/A</td>
+<td>?? m</td>
+<td>?? min</td>
+<td class="detail">?? m/s</td>
+<td class="detail">?? m</td>
+<td class="detail"><a href=https://lift-world.info/en/lifts/14486/datas.htm>link</a></td>
+</tr>
+<tr>
+<td>Coire Na Ciste Chairlift</td>
+<td>2-CLF</td>
+<td>N/A</td>
+<td>?? m</td>
+<td>?? min</td>
+<td class="detail">?? m/s</td>
+<td class="detail">?? m</td>
+<td class="detail"><a href=https://lift-world.info/en/lifts/13162/datas.htm>link</a></td>
+</tr>
+<tr>
+<td>Coire Na Ciste Tow</td>
+<td>2-SL</td>
+<td>N/A</td>
+<td>?? m</td>
+<td>?? min</td>
+<td class="detail">?? m/s</td>
+<td class="detail">?? m</td>
+<td class="detail"><a href=https://lift-world.info/en/lifts/14487/datas.htm>link</a></td>
+</tr>
+<tr>
+<td>Day Lodge Poma</td>
+<td>1-SL</td>
+<td>N/A</td>
+<td>?? m</td>
+<td>?? min</td>
+<td class="detail">?? m/s</td>
+<td class="detail">?? m</td>
+<td class="detail"><a href=https://lift-world.info/en/lifts/18237/datas.htm>link</a></td>
+</tr>
+<tr>
+<td>Fiacaill T Bar</td>
+<td>2-SL</td>
+<td>N/A</td>
+<td>?? m</td>
+<td>?? min</td>
+<td class="detail">?? m/s</td>
+<td class="detail">?? m</td>
+<td class="detail"><a href=https://lift-world.info/en/lifts/14489/datas.htm>link</a></td>
+</tr>
+<tr>
+<td>Link Poma</td>
+<td>1-SL</td>
+<td>N/A</td>
+<td>?? m</td>
+<td>?? min</td>
+<td class="detail">?? m/s</td>
+<td class="detail">?? m</td>
+<td class="detail"><a href=https://lift-world.info/en/lifts/14490/datas.htm>link</a></td>
+</tr>
+<tr>
+<td>M1 Poma</td>
+<td>1-SL</td>
+<td>N/A</td>
+<td>?? m</td>
+<td>?? min</td>
+<td class="detail">?? m/s</td>
+<td class="detail">?? m</td>
+<td class="detail"><a href=https://lift-world.info/en/lifts/14491/datas.htm>link</a></td>
+</tr>
+<tr>
+<td>Polar express</td>
+<td>1-SL</td>
+<td>N/A</td>
+<td>?? m</td>
+<td>?? min</td>
+<td class="detail">?? m/s</td>
+<td class="detail">?? m</td>
+<td class="detail"><a href=https://lift-world.info/en/lifts/18238/datas.htm>link</a></td>
+</tr>
+<tr>
+<td>Ptarmigan Tow</td>
+<td>2-SL</td>
+<td>N/A</td>
+<td>?? m</td>
+<td>?? min</td>
+<td class="detail">?? m/s</td>
+<td class="detail">?? m</td>
+<td class="detail"><a href=https://lift-world.info/en/lifts/14492/datas.htm>link</a></td>
+</tr>
+<tr>
+<td>Sheiling Tow</td>
+<td>1-SL</td>
+<td>N/A</td>
+<td>?? m</td>
+<td>?? min</td>
+<td class="detail">?? m/s</td>
+<td class="detail">?? m</td>
+<td class="detail"><a href=https://lift-world.info/en/lifts/14493/datas.htm>link</a></td>
+</tr>
+<tr>
+<td>West Wall Chairlift</td>
+<td>2-CLF</td>
+<td>N/A</td>
+<td>?? m</td>
+<td>?? min</td>
+<td class="detail">?? m/s</td>
+<td class="detail">?? m</td>
+<td class="detail"><a href=https://lift-world.info/en/lifts/13163/datas.htm>link</a></td>
+</tr>
+<tr>
+<td>West Wall Poma</td>
+<td>1-SL</td>
+<td>N/A</td>
+<td>?? m</td>
+<td>?? min</td>
+<td class="detail">?? m/s</td>
+<td class="detail">?? m</td>
+<td class="detail"><a href=https://lift-world.info/en/lifts/14494/datas.htm>link</a></td>
+</tr>
+<tr>
+<td>Fiacaill Ridge Poma</td>
+<td>1-SL</td>
+<td>N/A</td>
+<td>?? m</td>
+<td>?? min</td>
+<td class="detail">?? m/s</td>
+<td class="detail">?? m</td>
+<td class="detail"><a href=https://lift-world.info/en/lifts/14488/datas.htm>link</a></td>
+</tr>
+<tr>
+<td>Aonach Poma</td>
+<td>1-SL</td>
+<td>N/A</td>
+<td>?? m</td>
+<td>?? min</td>
+<td class="detail">?? m/s</td>
+<td class="detail">?? m</td>
+<td class="detail"><a href=https://lift-world.info/en/lifts/14484/datas.htm>link</a></td>
+</tr>
+</table>
