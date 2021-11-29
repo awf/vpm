@@ -1,0 +1,19 @@
+<nav>
+  <table>
+  <tr>
+  {% for item in site.data.navigation %}
+    <td  
+       {% if page.url == item.link %}
+        style="background: gray;"
+       {% else %}
+        style="background: white;"
+       {% endif %}
+    >
+    <a href="{{ item.link }}" style="color: black">
+      {{ item.name }} <!-- debug [{{page.url}} == {{item.link}}] -->
+    </a>
+    </td>
+  {% endfor %}
+  </tr>
+  </table>
+</nav>
