@@ -2,6 +2,7 @@ theme: jekyll-theme-slate
 encoding: UTF-8
 title: "VPM: Vert per minute"
 description: "Ski lift data, sorted"
+url: "http://awf.github.io/vpm"
 show_downloads: false
 github:
   is_project_page: false
