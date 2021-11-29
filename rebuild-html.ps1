@@ -1,7 +1,7 @@
 $places = Get-ChildItem .\data\*.html | ForEach-Object { 
         $file = $_
         Get-Content $file | ForEach-Object { 
-            if ($_ -match 'Lift data for places matching "(.*)"') { 
+            if ($_ -match '^area: (.*)$') { 
                 $out = 1 | Select-Object file,name
                 $out.file = $file
                 $out.name = $Matches[1] 
