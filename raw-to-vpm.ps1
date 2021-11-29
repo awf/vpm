@@ -92,58 +92,23 @@ function tr($tag='td',$dict) {
     } else {
       $detail_str = ''
     }
-    "<$tag$detail_str>$($dict[$c])</td>" 
+    "<$tag$detail_str>$($dict[$c])</$tag>" 
   } 
   "</tr>"
 }
 
-function tag($tag) {
-  "<$tag>" 
-  $args
-  "</$tag>"
-}
-
 $lifts = $lifts | Sort-Object -desc vpm
 
-$date = get-date -format y
 # create dokuwiki table
 $table = $lifts | ForEach-Object {
-@'
-<html xmlns="http://www.w3.org/1999/xhtml">
-<head>
-    <title>VPM for $area</title>
-    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.0/jquery.min.js"></script>
-    <script type="text/javascript">
-        $(document).ready(function() {
-            $('.detail,#btnHide').hide();
-            $('#btnShow').click(function() {
-                $('.detail,#btnHide').show();
-                $('#btnShow').hide();
-            });
-            $('#btnHide').click(function() {
-                $('.detail,#btnHide').hide();
-                $('#btnShow').show();
-            });
-        });
-    </script>
-</head>
-<body>
-'@
-
-  "<h2> Lift data for places matching `"$area`" </h2>"
-  "<p> Collected $date </p>"
-
-  @'
-See <a href=/vpm>vpm</a> for blurb on how to read the table.  
-
-Asterisked entries are estimated from line speed, 
-if more than 15% different to the database ride time.
-<br/>
-
-<input hidden id="btnHide" type="button" value="Hide Detail"/>
-<input id="btnShow" type="button" value="Show Detail"/>
-
-'@  
+@"
+---
+layout: area
+area: $area
+collected: $(get-date -format y)
+title: VPM for $area
+---
+"@
 
   "<table>"
 
