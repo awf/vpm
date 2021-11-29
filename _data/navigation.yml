@@ -1,4 +1,8 @@
 - name: Home
   link: /
-- name: Areas
+- name: Ski Areas
   link: /areas.html
+- name: Lift types
+  link: /types.html
+- name: About
+  link: /about.html
