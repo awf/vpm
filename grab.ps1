@@ -1,8 +1,6 @@
-param($area)
+param($area = $(throw "need area"),
+      [switch]$exact_resort = $false)
 
-if (!$area) {
-  $area = '*menuires*'
-}
 write-host "Loading data for [$area]"
 
 $ignore = '*'
@@ -39,7 +37,7 @@ $fields = @{
   "Persons per cab" = $ignore;
   "Cab distance..." = $ignore;
   "Cab interval..." = $ignore;
-  "Maximum capacity" = $ignore;
+  "Maximum capacity" = 'capacity';
   "Travel time" = 'time';
   "Driving speed line" = 'speed';
   "Transport uphill" = $ignore;
@@ -57,13 +55,43 @@ $fields = @{
 $base = 'https://lift-world.info'
 
 # Get the summary page
+if ($exact_resort) {
+  # Search by resort ("eSkigebiet") or place ("eOrt")
+  $req = Invoke-WebRequest -uri "$base/en/lifts/searchresult.htm" -method post -form @{
+    sprache='en'; 
+    eOrt="";
+    eSkigebiet="$area"
+    eLiftname=''
+    eLand=''
+    eArt1=''
+    eArt2=''
+    eHersteller=''
+    eBaujahr=''
+    toleranz='AND'
+    sort_by1='Ort'
+    sort_by2='Liftname'
+    sort_dir='ASC'
+    suchoption='erweitert'
+    # Remove replaced/decomissioned lifts
+    liftstatus1=1
+    liftstatus2=1
+    liftstatus3=1
+  }
+} else {
+  $req = Invoke-WebRequest -uri "$base/en/lifts/searchresult.htm" -method post -form @{
+    sprache='en'
+    suchoption='volltext'
+    eingabe=$area
 
-# Search by resort ("eSkigebiet") or place ("eOrt")
-$h = ''
-$url = "$base/en/lifts/searchresult.htm?sprache=en&suchoption=volltext&eingabe=$area"
-$url+= "&liftstatus1=1&liftstatus2=1&liftstatus3=1" # Remove replaced/decomissioned lifts
-write-host "$url"
-$h = ./http-get-html $url
+    # Remove replaced/decomissioned lifts
+    liftstatus1=1
+    liftstatus2=1
+    liftstatus3=1
+  }
+}
+
+$h = new-object HtmlAgilityPack.HtmlDocument
+$h.LoadHtml($req.Content)
 
 $failed = ($h.DocumentNode.OuterHtml -split "`n" | Select-String "Your search did not")
 if ($failed) {

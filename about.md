@@ -1,4 +1,4 @@
-VPM is a auick hack I wrote for fun -- feel free to post bug reports and feature 
+VPM is a quick hack I wrote for fun -- feel free to post bug reports and feature 
 requests at <https://github.com/awf/vpm/issues> but don't expect instant responses.
 The code is at <https://github.com/awf/vpm> so you might even fix things yourself :)
 

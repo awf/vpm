@@ -1,15 +1,21 @@
+param([switch]$fromcsv = $False, [switch]$checkin = $false)
+
+function go {
+  ./make-vpm -fromcsv:$fromcsv @args
+}
 
 # Make all resorts in the README
-.\make-vpm 'Cairngorm'
-.\make-vpm 'Champery'
-.\make-vpm 'Crystal Mountain'
-.\make-vpm 'Espace Killy'
-.\make-vpm 'Glenshee'
-.\make-vpm 'Tignes'
-.\make-vpm 'Val Gardena'
-.\make-vpm 'Whistler'
-.\make-vpm 'Grimentz'
+go 'Cairngorm'
+go 'Champery'
+go 'Crystal Mountain'
+go 'Espace Killy'
+go 'Glenshee'
+go 'Tignes'
+go 'Val Gardena'
+go 'Whistler'
+go 'Grimentz'
+go 'Paradiski'
 
-.\make-vpm.ps1 'Portes du Soleil' -resorts @(
+go 'Portes du Soleil' -resorts @(
   echo 'Avoriaz' 'Morzine' 'Les Crosets' 'Champoussin' 'Champery'
 )

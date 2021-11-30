@@ -88,11 +88,11 @@ function tr($tag='td',$dict) {
   "<tr>"
   foreach ($c in $cols) { 
     if ($is_detail[$c]) {
-      $detail_str = ' class="detail"'
+      $detail_str = 'detail'
     } else {
       $detail_str = ''
     }
-    "<$tag$detail_str>$($dict[$c])</$tag>" 
+    "<$tag class=`"$detail_str`">$($dict[$c])</$tag>" 
   } 
   "</tr>"
 }

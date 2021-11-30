@@ -1,7 +1,11 @@
-param($area, $resorts = @(), [switch]$checkin = $false, [switch]$fromcsv = $False)
+param($area, 
+      $resorts = @(), 
+      [switch]$fromcsv = $False, 
+      [switch]$checkin = $false, 
+      [switch]$exact_resort = $false)
 
 if (!$area) {
-  $area = 'Les menuires'
+  throw 'make-vpm AREA [-resorts LIST] [-fromcsv] [-checkin]'
 }
 
 $filenamebase = "data/$area" -replace "[* ]","_"
@@ -13,11 +17,11 @@ if ($fromcsv) {
 } else {
   # Grab from seilbahntechnik
   if (!$resorts) {
-    $raw = ./grab $area
+    $raw = ./grab -exact_resort:$exact_resort $area
   } else {
     $raw = @()
     foreach ($resort in $resorts) {
-      $raw += ./grab $resort
+      $raw += ./grab -exact_resort:$exact_resort $resort
     }
   }
 
