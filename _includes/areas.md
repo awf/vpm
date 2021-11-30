@@ -1,4 +1,4 @@
-Ski areas for which we have computed [Vert per minute](about.html)
+Ski areas for which we have computed [Vert per minute](/)
 
 * North America
   - [Whistler](data/Whistler)
